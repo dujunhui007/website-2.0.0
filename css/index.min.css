@@ -266,17 +266,70 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
 }
 
 .section .aschLogo {
+    /*position: absolute;*/
+    /*width: 200px;*/
+    /*height: 200px;*/
+    /*top: -moz-calc(50% - 100px);*/
+    /*top: -webkit-calc(50% - 100px);*/
+    /*top: calc(50% - 100px);*/
+    /*top: -moz-calc(50% - 100px);*/
+    /*top: -webkit-calc(50% - 100px);*/
+    /*left: calc(50% - 100px);*/
+    /*z-index: 99;*/
+    /*opacity: 0;*/
+    /*-webkit-animation: homeLogoAmimate 1.5s linear .5s forwards;*/
+    /*animation: homeLogoAmimate 2.5s linear .5s forwards*/
+}
+
+
+.section .homeLogoAmimateOne{
     position: absolute;
     width: 0;
     height: 0;
     top: 50%;
     left: 50%;
     z-index: 99;
-    -webkit-animation: homeLogoAmimate 1.5s linear .5s forwards;
-    animation: homeLogoAmimate 1.5s linear .5s forwards
+    opacity: 0;
+    -webkit-animation: homeLogoAmimateOne 1.5s linear .5s forwards;
+    animation: homeLogoAmimateOne 1.5s linear .5s forwards
 }
 
-@-webkit-keyframes homeLogoAmimate {
+.homeLogoAmimateTwo{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: calc(50% - 60px);
+    left: calc(50% - 100px);
+    z-index: 99;
+    opacity: 0;
+    -webkit-animation: homeLogoAmimateTwo 1.5s linear .5s forwards;
+    animation: homeLogoAmimateTwo 1.5s linear .5s forwards
+}
+
+@-webkit-keyframes homeLogoAmimateOne {
+    0% {
+        width: 200px;
+        height: 200px;
+        top: calc(50% - 60px);
+        left: calc(50% - 100px);
+        opacity: 0
+    }
+    50% {
+        width: 240px;
+        height: 240px;
+        top: calc(50% - 80px);
+        left: calc(50% - 120px);
+        opacity: 1
+    }
+    100% {
+        width: 200px;
+        height: 200px;
+        top: calc(50% - 60px);
+        left: calc(50% - 100px);
+        opacity: 1
+    }
+}
+@keyframes homeLogoAmimateOne {
     0% {
         width: 200px;
         height: 200px;
@@ -300,29 +353,77 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     }
 }
 
-@keyframes homeLogoAmimate {
+@-webkit-keyframes homeLogoAmimateTwo {
     0% {
         width: 200px;
         height: 200px;
-        top: calc(50% - 60px);
-        left: calc(50% - 100px);
+        /*top: -moz-calc(50% - 60px);*/
+        /*top: -webkit-calc(50% - 60px);*/
+        /*top: calc(50% - 60px);*/
+        /*top: -moz-calc(50% - 100px);*/
+        /*top: -webkit-calc(50% - 100px);*/
+        /*left: calc(50% - 100px);*/
         opacity: 0
     }
     50% {
-        width: 240px;
-        height: 240px;
-        top: calc(50% - 80px);
-        left: calc(50% - 120px);
-        opacity: 1
+        width: 200px;
+        height: 200px;
+        /*top: -moz-calc(50% - 80px);*/
+        /*top: -webkit-calc(50% - 80px);*/
+        /*top: calc(50% - 80px);*/
+        /*left: -moz-calc(50% - 120px);*/
+        /*left: -webkit-calc(50% - 120px);*/
+        /*left: calc(50% - 120px);*/
+        opacity: 0.5
     }
     100% {
         width: 200px;
         height: 200px;
-        top: calc(50% - 60px);
-        left: calc(50% - 100px);
+        /*top: -moz-calc(50% - 60px);*/
+        /*top:  -webkit-calc(50% - 60px);*/
+        /*top: calc(50% - 60px);*/
+        /*left: -moz-calc(50% - 100px);*/
+        /*left:  -webkit-calc(50% - 100px);*/
+        /*left: calc(50% - 100px);*/
         opacity: 1
     }
 }
+@keyframes homeLogoAmimateTwo {
+    0% {
+        /*width: 200px;*/
+        /*height: 200px;*/
+        /*top: -moz-calc(50% - 60px);*/
+        /*top: -webkit-calc(50% - 60px);*/
+        /*top: calc(50% - 60px);*/
+        /*top: -moz-calc(50% - 100px);*/
+        /*top: -webkit-calc(50% - 100px);*/
+        /*left: calc(50% - 100px);*/
+        opacity: 0
+    }
+    50% {
+        /*width: 200px;*/
+        /*height: 200px;*/
+        /*top: -moz-calc(50% - 80px);*/
+        /*top: -webkit-calc(50% - 80px);*/
+        /*top: calc(50% - 80px);*/
+        /*left: -moz-calc(50% - 120px);*/
+        /*left: -webkit-calc(50% - 120px);*/
+        /*left: calc(50% - 120px);*/
+        opacity: 0.5
+    }
+    100% {
+        /*width: 200px;*/
+        /*height: 200px;*/
+        /*top: -moz-calc(50% - 60px);*/
+        /*top:  -webkit-calc(50% - 60px);*/
+        /*top: calc(50% - 60px);*/
+        /*left: -moz-calc(50% - 100px);*/
+        /*left:  -webkit-calc(50% - 100px);*/
+        /*left: calc(50% - 100px);*/
+        opacity: 1
+    }
+}
+
 
 .section .aschLogo img {
     display: block;
@@ -331,10 +432,12 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
 }
 
 .section .sectionTop {
-    width: 100%;
+    width: 70%;
     text-align: center;
-    margin-bottom: 50px;
-    padding-top: 20px
+    /* margin-bottom: 50px; */
+    /* padding-top: 20px; */
+    margin: 0px auto 50px auto;
+    /* background: red; */
 }
 
 .section .sectionTop i {
@@ -536,16 +639,20 @@ ul.homeLinks li:nth-child(4) i {
 }
 
 #introduction {
-    padding: 50px 15% 50px 15%;
+    width: 100%;
+    padding: 50px 0 100px 0;
     box-sizing: border-box;
     background: #fff;
-    margin-bottom: 50px
+    /* margin-bottom: 50px; */
 }
 
 #introduction .introductionContainer {
+    width: 70%;
     box-shadow: 0 0 10px #ccc;
     border-top-left-radius: 5px;
-    border-top-right-radius: 5px
+    border-top-right-radius: 5px;
+    margin: 0 auto;
+    /* background: red; */
 }
 
 #introduction .introductionContainer .introductionCenter {
@@ -667,15 +774,17 @@ ul.homeLinks li:nth-child(4) i {
 }
 
 #features {
-    padding: 50px 15% 50px 15%;
+    padding: 50px 0 100px 0;
     box-sizing: border-box;
-    background: #f5f9ff
+    background: #f5f9ff;
 }
 
 #features .featuresTopContainer {
+    width: 70%;
+    margin: 0 auto;
     position: relative;
     z-index: 9;
-    margin-bottom: 100px
+    /* margin-bottom: 100px; */
 }
 
 #features .featuresTopContainer .featuresTop {
@@ -864,9 +973,9 @@ ul.homeLinks li:nth-child(4) i {
 }
 
 #featuresTwo {
-    padding: 50px 15% 50px 15%;
+    padding: 50px 0 100px 0;
     box-sizing: border-box;
-    background: #fff
+    background: #fff;
 }
 
 #featuresTwo .featuresTopContainer {
@@ -963,9 +1072,11 @@ ul.homeLinks li:nth-child(4) i {
 }
 
 #featuresTwo .featuresBottomContainer {
+    width: 70%;
+    margin: 0 auto;
     position: relative;
     z-index: 9;
-    margin-bottom: 100px
+    /* margin-bottom: 100px; */
 }
 
 #featuresTwo .featuresBottomContainer .featuresBottomBorderOne {
@@ -1444,7 +1555,7 @@ ul.homeLinks li:nth-child(4) i {
 #scenarios {
     position: relative;
     width: 100%;
-    padding: 50px 15% 50px 15%;
+    padding: 50px 0 100px 0;
     box-sizing: border-box;
     z-index: 1
 }
@@ -1455,13 +1566,19 @@ ul.homeLinks li:nth-child(4) i {
     left: 7%;
     z-index: -2;
     width: 86%;
-    height: 100%;
+    height: 52%;
     /*background: url(../images/scenariosback1.png) no-repeat center;*/
     /*background-size: cover*/
 }
 
 #scenarios .scenariosBackground img{
     width: 100%;
+}
+
+
+#scenarios .scenariosContainerCenter{
+    width: 70%;
+    margin: 0 auto;
 }
 
 
@@ -1627,17 +1744,18 @@ ul.homeLinks li:nth-child(4) i {
 #downloads {
     position: relative;
     width: 100%;
-    padding: 50px 15% 150px 15%;
+    padding: 50px 0 100px 0;
     box-sizing: border-box;
-    background: #f5f9ff
+    background: #f5f9ff;
 }
 
 #downloads .downloadsContainer {
     display: flex;
-    width: 100%;
+    width: 70%;
     height: 622px;
     justify-content: space-between;
-    box-shadow: 0 0 5px #ccc
+    box-shadow: 0 0 5px #ccc;
+    margin: 0 auto;
 }
 
 #downloads .downloadsContainer .downloadsContainerLeft {
@@ -1954,7 +2072,7 @@ ul.homeLinks li:nth-child(4) i {
 
 @media screen and (max-width: 1920px) {
     #downloads .downloadsContainer {
-        width: 100%;
+        width: 70%;
         height: 400px;
         padding-bottom: 50px;
         display: -webkit-flex;
@@ -2281,7 +2399,7 @@ ul.homeLinks li:nth-child(4) i {
 #media {
     width: 100%;
     background: #fff;
-    padding: 50px 15% 90px 15%;
+    padding: 50px 0 100px 0;
     box-sizing: border-box
 }
 
@@ -2289,7 +2407,9 @@ ul.homeLinks li:nth-child(4) i {
     display: -webkit-flex;
     display: flex;
     -webkit-justify-content: space-between;
-    justify-content: space-between
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
 }
 
 #media .mediaContainer a:nth-child(1) {
@@ -2373,7 +2493,7 @@ ul.homeLinks li:nth-child(4) i {
 
     #media .mediaContainer a {
         display: inline-block;
-        width: 180px;
+        width: 170px;
         height: 80px;
         /* border: 1px solid #ccc; */
         box-shadow: 0 0 6px rgba(0,0,0,.2);
@@ -2384,9 +2504,9 @@ ul.homeLinks li:nth-child(4) i {
 #links {
     width: 100%;
     box-sizing: border-box;
-    padding: 30px 15% 60px 15%;
+    padding: 30px 0 60px 0;
     background: #363839;
-    height: 520px
+    height: 520px;
 }
 
 #links .linksContainer {
@@ -2394,7 +2514,9 @@ ul.homeLinks li:nth-child(4) i {
     display: flex;
     -webkit-justify-content: space-between;
     justify-content: space-between;
-    color: #fff
+    color: #fff;
+    width: 70%;
+    margin: 0 auto;
 }
 
 
@@ -2457,10 +2579,17 @@ footer {
     position: relative;
     width: 100%;
     height: 200px;
-    padding: 30px 15%;
+    padding: 30px 0;
     box-sizing: border-box;
-    background: #282a2b
+    background: #282a2b;
 }
+
+footer .footerContainer{
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+}
+
 
 footer .footerLeft {
     width: 40%;
@@ -2520,8 +2649,8 @@ footer .footerRight:hover span {
 footer .footerRight {
     display: inline-block;
     position: absolute;
-    top: 30px;
-    right: 18%
+    top: 0;
+    right: 3%
 }
 
 footer .footerRight p {
