@@ -77,7 +77,7 @@ $(document).ready(
   }),
 
 
-  $("#introduction .aschVideo").click(function () {
+  $("#introduction .introductionContainer .aschVideo").click(function () {
     // window.location.href = "aschVideo.html";
     window.open("aschVideo.html");
   })

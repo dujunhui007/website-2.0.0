@@ -516,7 +516,7 @@ ul.homeLinks {
     display: flex;
     -webkit-justify-content: space-between;
     justify-content: space-between;
-    z-index: 1
+    /*z-index: 1*/
 }
 
 ul.homeLinks li:hover {
@@ -545,7 +545,8 @@ ul.homeLinks li {
     background: #f3f7fd;
     padding-top: 20px;
     cursor: pointer;
-    border-bottom: 2px solid transparent
+    border-bottom: 2px solid transparent;
+    z-index: 99;
 }
 
 ul.homeLinks li .linksIcon {
