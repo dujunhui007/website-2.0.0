@@ -698,7 +698,7 @@ body.vjs-full-window {
 
 .video-js .vjs-control-bar {
     display: none;
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
     position: absolute;
     bottom: 0;
@@ -725,12 +725,12 @@ body.vjs-full-window {
 
 .vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
     visibility: visible;
-    opacity: 0;
-    -webkit-transition: visibility 1s, opacity 1s;
-    -moz-transition: visibility 1s, opacity 1s;
-    -ms-transition: visibility 1s, opacity 1s;
-    -o-transition: visibility 1s, opacity 1s;
-    transition: visibility 1s, opacity 1s
+    opacity: 1;
+    /*-webkit-transition: visibility 1s, opacity 1s;*/
+    /*-moz-transition: visibility 1s, opacity 1s;*/
+    /*-ms-transition: visibility 1s, opacity 1s;*/
+    /*-o-transition: visibility 1s, opacity 1s;*/
+    /*transition: visibility 1s, opacity 1s*/
 }
 
 .vjs-controls-disabled .vjs-control-bar, .vjs-error .vjs-control-bar, .vjs-using-native-controls .vjs-control-bar {

@@ -11,6 +11,55 @@
     <link rel="stylesheet" href="./css/commons.min.css">
     <link rel="stylesheet" href="./css/video-js.css">
     <link rel="stylesheet" href="./css/index.min.css">
+    <style>
+        /*.videoContainer {*/
+        /*position: relative;*/
+        /*width: 100%;*/
+        /*height: 100%;*/
+        /*background: #ccc;*/
+
+        /*}*/
+
+        .m {
+            position: fixed;
+            left: calc(50% - 480px);
+            top: calc(50% - 230px);
+            /*padding-top: 50px;*/
+            /*width:1920px;*/
+            /*height:1080px;*/
+            /*width:1344px;*/
+            /*height:756px;*/
+            width: 960px;
+            height: 540px;
+            margin-left: auto;
+            margin-right: auto;
+            /*margin-top: calc(50% - 250px);*/
+            /*margin-bottom: auto;*/
+            box-sizing: border-box;
+            z-index: 999;
+            display: none;
+        }
+
+        .m video {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+        }
+
+        .m .closedVideo{
+            width: 20px;
+            height: 20px;
+            display: block;
+            position: fixed;
+            top:80px;
+            right: calc(15% - 30px);
+            /*color: #fff;*/
+            background: url("images/closed.png") no-repeat center;
+            background-size: cover;
+            /*border:1px solid #000;*/
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body class="deScroll">
 <nav>
@@ -168,27 +217,28 @@
             <span class="videoText"></span>
         </div>
     </div>
-    <div class="videoContainer">
-        <div class="m">
-            <video controls="controls"  autoplay="true"  poster="images/bg.jpg" loop="true">
-                <source src="http://asch-public.oss-cn-beijing.aliyuncs.com/asch.io/integrity.mp4" type="video/mp4">
-                <p class="vjs-no-js">
-                    To view this video please enable JavaScript, and consider upgrading to a web browser that
-                    <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-                </p>
-            </video>
-
-            <!--<video id="asch-video" class="video-js" autoplay="true" controls preload="auto" loop="true"-->
-                   <!--data-setup="{}">-->
-                <!--<source src="http://asch-public.oss-cn-beijing.aliyuncs.com/asch.io/loop.mp4" type="video/mp4">-->
-                <!--<p class="vjs-no-js">-->
-                    <!--To view this video please enable JavaScript, and consider upgrading to a web browser that-->
-                    <!--<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>-->
-                <!--</p>-->
-            <!--</video>-->
-        </div>
-    </div>
 </div>
+<div class="m">
+    <video id="my-video" class="video-js" controls preload="auto" loop="true" width="740" height="400"
+           data-setup="{}">
+        <source src="http://asch-public.oss-cn-beijing.aliyuncs.com/asch.io/integrity.mp4" type="video/mp4">
+        <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a web browser that
+            <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+        </p>
+    </video>
+
+    <video id="asch-video" class="video-js" controls preload="auto" loop="true" width="740" height="400"
+           data-setup="{}">
+        <source src="http://asch-public.oss-cn-beijing.aliyuncs.com/asch.io/loop.mp4" type="video/mp4">
+        <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a web browser that
+            <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+        </p>
+    </video>
+    <span class="closedVideo"></span>
+</div>
+
 <div class="section featuresOne" id="features">
     <div class="sectionTop">
         <i></i>
@@ -796,6 +846,7 @@
 <script type="text/javascript" src="js/index.js"></script>
 <script type="text/javascript" src="js/homeCanvas.js"></script>
 <script src="js/video.min.js"></script>
+<script src="js/videojs-ie8.min.js"></script>
 <script src="js/videoPaly.js"></script>
 
 </body>
