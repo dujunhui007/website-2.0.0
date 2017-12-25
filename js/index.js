@@ -95,6 +95,8 @@ $(document).ready(
 
   $("#introduction .introductionContainer .aschVideo").click(function () {
     // window.location.href = "aschVideo.html";
-    window.open("aschVideo.html");
+    // window.open("aschVideo.html");
+    $("#introduction .videoContainer").css("display","block");
+    // $("#introduction .videoContainer video").src="http://asch-public.oss-cn-beijing.aliyuncs.com/asch.io/integrity.mp4\" type=\"video/mp4"
   })
 );

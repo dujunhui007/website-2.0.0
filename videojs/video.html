@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Video.js 6.2.8</title>
+    <link href="css/video-js.css" rel="stylesheet">
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            background-color: #ccc;
+            position: relative;
+        }
+
+        .m {
+            position: fixed;
+            left: calc(50% - 672px);
+            top: calc(50% - 378px);
+            /*padding-top: 50px;*/
+            /*width:1920px;*/
+            /*height:1080px;*/
+            width:1344px;
+            height:756px;
+            margin-left: auto;
+            margin-right: auto;
+            /*margin-top: calc(50% - 250px);*/
+            /*margin-bottom: auto;*/
+            box-sizing: border-box;
+        }
+        .m video{
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+        }
+    </style>
+</head>
+
+<body>
+<div class="m">
+    <video id="my-video" class="video-js" controls preload="auto" loop="true" width="740" height="400"
+           data-setup="{}">
+        <source src="http://asch-public.oss-cn-beijing.aliyuncs.com/asch.io/integrity.mp4" type="video/mp4">
+        <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a web browser that
+            <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+        </p>
+    </video>
+
+    <video id="asch-video" class="video-js" controls preload="auto" loop="true" width="740" height="400"
+           data-setup="{}">
+        <source src="http://asch-public.oss-cn-beijing.aliyuncs.com/asch.io/loop.mp4" type="video/mp4">
+        <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a web browser that
+            <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+        </p>
+    </video>
+    <script src="../js/jquery-1.9.1.min.js"></script>
+    <script src="js/video.min.js"></script>
+    <script type="text/javascript">
+      setTimeout(function () {
+        var myPlayer = videojs('my-video');
+        videojs("my-video").ready(function () {
+          var myPlayer = this;
+          myPlayer.play();
+          $("#asch-video").css("display", "none");
+          $("#my-video").css("display", "block")
+        });
+      }, 0);
+
+      setTimeout(function () {
+        var myPlayer = videojs('asch-video');
+        videojs("asch-video").ready(function () {
+          var myPlayer = this;
+          myPlayer.play();
+          $("#asch-video").css("display", "block");
+          $("#my-video").css("display", "none")
+        });
+      }, 19000);
+
+    </script>
+</div>
+
+</body>
+</html>
