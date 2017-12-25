@@ -1,8 +1,16 @@
 $(document).ready(function () {
   $("#introduction .aschVideo").click(function () {
-    $(document).bind('mousewheel', function(event, delta) { return false; });
-    // alert(1);
-    $(".m").css("display","block");
+    setTimeout(function () {
+      $(document).bind('mousewheel', function(event, delta) { return false; });
+      // $(".m").css("display","block");
+      $(".m").show();
+      $(".m").removeClass("mClosedVideo").addClass("mOpenVideo");
+      $(".vjs-has-started .vjs-control-bar").css("display","none");
+    },0);
+
+   setTimeout(function () {
+     $(".vjs-has-started .vjs-control-bar").css("display","flex");
+   },1000);
     setTimeout(function () {
       var myPlayer = videojs('my-video');
       videojs("my-video").ready(function () {
@@ -11,7 +19,7 @@ $(document).ready(function () {
         $("#asch-video").css("display", "none");
         $("#my-video").css("display", "block")
       });
-    }, 1000);
+    }, 100);
 
     setTimeout(function () {
       var myPlayer = videojs('asch-video');
@@ -24,10 +32,19 @@ $(document).ready(function () {
     }, 19000);
   });
   $(".m .closedVideo").click(function () {
-    $(document).unbind('mousewheel');
-    $(".m").css("display","none")
-  })
 
+
+    setTimeout(function () {
+      $(".vjs-has-started .vjs-control-bar").css("display","none");
+      $(".m").addClass("mClosedVideo").removeClass("mOpenVideo")
+    },0);
+    setTimeout(function () {
+      $(".vjs-has-started .vjs-control-bar").css("display","flex");
+      // $(".m").css("display","none");
+      $(".m").hide();
+      $(document).unbind('mousewheel');
+    },1000);
+  })
 });
 
 
