@@ -47,6 +47,22 @@ $(document).ready(
     }
   }),
 
+  $(".homeLinks li").mousemove(function () {
+    $(this).find(".rightLine").css("display","none");
+    $(this).prev().find(".rightLine").css("display","none")
+    // window.open("http://bbs.asch.io/");
+  }),
+
+  $(".homeLinks li").mouseout(function () {
+    $(this).find(".rightLine").css("display","block");
+    $(this).prev().find(".rightLine").css("display","block")
+  }),
+
+  // $(".homeLinks li").mouseout(function () {
+  //   $(this).prev().css("background"," red")
+  //   // window.open("http://bbs.asch.io/");
+  // }),
+
   $(".homeLinks .toGit").click(function () {
     // window.location.href = "aschVideo.html";
     window.open("https://github.com/AschPlatform");
