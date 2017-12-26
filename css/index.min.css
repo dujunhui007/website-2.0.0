@@ -2092,6 +2092,8 @@ ul.homeLinks li:nth-child(4) i {
     z-index: 2
 }
 
+
+
 @media screen and (max-width: 1920px) {
     #downloads .downloadsContainer {
         width: 70%;
@@ -2415,6 +2417,14 @@ ul.homeLinks li:nth-child(4) i {
         margin: 10px;
         background: #567fdc;
         border-radius: 4px
+    }
+}
+
+@media screen and (min-width:1640px) and (max-width:1920px){
+    #downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3) {
+        padding-top: 5px;
+        box-sizing: border-box;
+        line-height: 50px
     }
 }
 
