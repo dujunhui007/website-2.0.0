@@ -720,7 +720,9 @@ body.vjs-full-window {
     -moz-transition: visibility .1s, opacity .1s;
     -ms-transition: visibility .1s, opacity .1s;
     -o-transition: visibility .1s, opacity .1s;
-    transition: visibility .1s, opacity .1s
+    transition: visibility .1s, opacity .1s;
+    /*color:#30d1ff;*/
+    color: #23559e;
 }
 
 .vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
@@ -730,7 +732,9 @@ body.vjs-full-window {
     -moz-transition: visibility 1s, opacity 1s;
     -ms-transition: visibility 1s, opacity 1s;
     -o-transition: visibility 1s, opacity 1s;
-    transition: visibility 1s, opacity 1s
+    transition: visibility 1s, opacity 1s;
+    /*color:#30d1ff;*/
+    color: #23559e;
 }
 
 .vjs-controls-disabled .vjs-control-bar, .vjs-error .vjs-control-bar, .vjs-using-native-controls .vjs-control-bar {
@@ -836,6 +840,7 @@ body.vjs-full-window {
     font-size: 1.666666666666666666em
 }
 
+
 .video-js .vjs-progress-holder .vjs-load-progress, .video-js .vjs-progress-holder .vjs-load-progress div, .video-js .vjs-progress-holder .vjs-play-progress {
     position: absolute;
     display: block;
@@ -848,7 +853,7 @@ body.vjs-full-window {
 }
 
 .video-js .vjs-play-progress {
-    background-color: #fff
+    background-color:#23559e
 }
 
 .video-js .vjs-play-progress:before {

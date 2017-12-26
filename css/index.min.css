@@ -755,7 +755,7 @@ ul.homeLinks li:nth-child(4) i {
     background: url(../images/aschVideoShade.png) no-repeat center;
     background-size: cover;
     opacity: .2;
-    z-index: 3
+    z-index: 1013
 }
 
 #introduction .introductionContainer .aschVideo .aschVideoContainer img {
