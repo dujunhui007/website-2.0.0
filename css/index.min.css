@@ -20,7 +20,7 @@ nav {
 
 nav .navContainer {
     width: 100%;
-    min-width: 1200px
+    min-width: 1100px
 }
 
 nav .navContainer .navLeft {
@@ -156,7 +156,8 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
 
 @media screen and (max-width: 1920px) {
     nav .navContainer .navRight {
-        padding-right: 150px
+        /*padding-right: 70px*/
+        margin-right: 100px;
     }
     nav .navContainer .navRight .downloadWhitePaperOne{
         width: 120px;
@@ -1850,7 +1851,9 @@ ul.homeLinks li:nth-child(4) i {
     vertical-align: bottom;
     -webkit-user-select: none;
     color: #626262;
-    background: #fff
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
 }
 
 #downloads .downloadsContainer .downloadsContainerLeft .dlsit-list {
@@ -1982,7 +1985,7 @@ ul.homeLinks li:nth-child(4) i {
     text-align: center;
     border-radius: 4px;
     background: #567fdc;
-    font-size: 24px
+    font-size: 20px
 }
 
 #downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a:nth-child(2):hover {
@@ -2006,7 +2009,7 @@ ul.homeLinks li:nth-child(4) i {
 #downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a:nth-child(2) span {
     color: #000;
     opacity: .7;
-    font-size: 24px
+    font-size: 20px
 }
 
 #downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a {
@@ -2198,7 +2201,7 @@ ul.homeLinks li:nth-child(4) i {
         text-align: center;
         border-radius: 4px;
         background: #567fdc;
-        font-size: 24px
+        font-size: 20px
     }
 
     #downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li.active .dlistBtns a:nth-child(2):hover {
@@ -2301,7 +2304,7 @@ ul.homeLinks li:nth-child(4) i {
         text-align: center;
         border-radius: 4px;
         background: #567fdc;
-        font-size: 24px
+        font-size: 20px
     }
 
     #downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a:nth-child(2):hover {
@@ -2325,7 +2328,7 @@ ul.homeLinks li:nth-child(4) i {
     #downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a:nth-child(2) span {
         color: #000;
         opacity: .7;
-        font-size: 24px
+        font-size: 20px
     }
 
     #downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a {
