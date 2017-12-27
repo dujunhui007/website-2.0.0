@@ -27,7 +27,7 @@ html, body {
 }
 
 #aschVideo video{
-    /*object-fit:fill;*/
+    object-fit:fill;
     width: 100%;
     height: 100%;
 }

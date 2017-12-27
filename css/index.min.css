@@ -14,7 +14,7 @@ nav {
     background: 0 0;
     padding: 0 15%;
     box-sizing: border-box;
-    z-index: 999;
+    z-index: 1015;
     margin: 0 auto
 }
 
@@ -124,6 +124,10 @@ nav .navContainer .navRight .moreThan li a {
     padding-right: 20px
 }
 
+nav .navContainer .navRight .downloadWhitePaperOne:hover{
+    background:#23559e ;
+}
+
 nav .navContainer .navRight .downloadWhitePaperOne {
     width: 120px;
     height: 20px;
@@ -132,7 +136,11 @@ nav .navContainer .navRight .downloadWhitePaperOne {
     font-size: 14px;
     margin-left: 50px;
     color: #fff;
-    background: #567fdc
+    background: #567fdc;
+}
+
+nav .navContainer .navRight .downloadWhitePaperTwo:hover{
+    background: #050572;
 }
 
 nav .navContainer .navRight .downloadWhitePaperTwo {
@@ -298,7 +306,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     position: absolute;
     width: 200px;
     height: 200px;
-    top: calc(50% - 60px);
+    top: calc(50% - 50px);
     left: calc(50% - 100px);
     z-index: 99;
     opacity: 0;
@@ -310,7 +318,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     0% {
         width: 200px;
         height: 200px;
-        top: calc(50% - 60px);
+        top: calc(50% - 50px);
         left: calc(50% - 100px);
         opacity: 0
     }
@@ -324,7 +332,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     100% {
         width: 200px;
         height: 200px;
-        top: calc(50% - 60px);
+        top: calc(50% - 50px);
         left: calc(50% - 100px);
         opacity: 1
     }
@@ -333,7 +341,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     0% {
         width: 200px;
         height: 200px;
-        top: calc(50% - 60px);
+        top: calc(50% - 50px);
         left: calc(50% - 100px);
         opacity: 0
     }
@@ -347,7 +355,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     100% {
         width: 200px;
         height: 200px;
-        top: calc(50% - 60px);
+        top: calc(50% - 50px);
         left: calc(50% - 100px);
         opacity: 1
     }
@@ -471,7 +479,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     height: 100%;
     box-shadow: 0 0 10px #000;
     z-index: 100;
-    background: url(../images/bg.jpg) no-repeat center;
+    background: url(../images/bg.png) no-repeat center;
     background-size: cover
 }
 
@@ -482,7 +490,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     font-weight: 300;
     color: #fff;
     position: absolute;
-    top: calc(50% + 160px);
+    top: calc(50% + 170px);
     left: 0;
     opacity: 0;
     animation: homeTextAnimate 2.2s linear 1.5s forwards

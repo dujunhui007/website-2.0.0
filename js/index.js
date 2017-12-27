@@ -1,17 +1,33 @@
-$(document).ready(
-  (function () {
-    var userAgent = navigator.userAgent;
-    var isEdge = userAgent.indexOf("Edge");
-    var isIE = userAgent.indexOf("MSIE");
-    // userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1 && !isOpera)
-    if (isEdge > -1) {
-      $("#home .aschLogo").addClass("homeLogoAmimateTwo").removeClass("homeLogoAmimateOne");
-    } else if (!!window.ActiveXObject || "ActiveXObject" in window) {
-      $("#home .aschLogo").addClass("homeLogoAmimateTwo").removeClass("homeLogoAmimateOne");
-    } else {
-      $("#home .aschLogo").addClass("homeLogoAmimateOne").removeClass("homeLogoAmimateTwo");
+$(document).ready(function () {
+  var userAgent = navigator.userAgent;
+  var isEdge = userAgent.indexOf("Edge");
+  var isIE = userAgent.indexOf("MSIE");
+  var isQQBrowser, is360;
+
+  isQQBrowser = window.navigator.userAgent.indexOf("QQBrowser") !== -1;
+  is360 = _mime("type", "application/vnd.chromium.remoting-viewer");
+
+  function _mime(option, value) {
+    var mimeTypes = navigator.mimeTypes;
+    for (var mt in mimeTypes) {
+      if (mimeTypes[mt][option] == value) {
+        return true;
+      }
     }
-  })(),
+    return false;
+  }
+
+  if (isQQBrowser || is360) {
+   $("#scenarios .scenariosContainerCenter .scenariosTitle h3").css("font-size","14px")
+  }
+
+  if (isEdge > -1) {
+    $("#home .aschLogo").addClass("homeLogoAmimateTwo").removeClass("homeLogoAmimateOne");
+  } else if (!!window.ActiveXObject || "ActiveXObject" in window) {
+    $("#home .aschLogo").addClass("homeLogoAmimateTwo").removeClass("homeLogoAmimateOne");
+  } else {
+    $("#home .aschLogo").addClass("homeLogoAmimateOne").removeClass("homeLogoAmimateTwo");
+  }
 
 
   $(window).scroll(function () {
@@ -47,56 +63,53 @@ $(document).ready(
     }
   }),
 
-  $(".homeLinks li").mousemove(function () {
-    $(this).find(".rightLine").css("display","none");
-    $(this).prev().find(".rightLine").css("display","none")
-    // window.open("http://bbs.asch.io/");
-  }),
+    $(".homeLinks li").mousemove(function () {
+      $(this).find(".rightLine").css("display", "none");
+      $(this).prev().find(".rightLine").css("display", "none")
+      // window.open("http://bbs.asch.io/");
+    }),
 
-  $(".homeLinks li").mouseout(function () {
-    $(this).find(".rightLine").css("display","block");
-    $(this).prev().find(".rightLine").css("display","block")
-  }),
+    $(".homeLinks li").mouseout(function () {
+      $(this).find(".rightLine").css("display", "block");
+      $(this).prev().find(".rightLine").css("display", "block")
+    }),
 
-  // $(".homeLinks li").mouseout(function () {
-  //   $(this).prev().css("background"," red")
-  //   // window.open("http://bbs.asch.io/");
-  // }),
+    $(".homeLinks .toGit").click(function () {
+      // window.location.href = "aschVideo.html";
+      window.open("https://github.com/AschPlatform");
+    }),
 
-  $(".homeLinks .toGit").click(function () {
-    // window.location.href = "aschVideo.html";
-    window.open("https://github.com/AschPlatform");
-  }),
+    $(".homeLinks .toExplore").click(function () {
+      // window.location.href = "aschVideo.html";
+      window.open("https://explorer.asch.io/");
+    }),
 
-  $(".homeLinks .toExplore").click(function () {
-    // window.location.href = "aschVideo.html";
-    window.open("https://explorer.asch.io/");
-  }),
+    $(".homeLinks .toWallet").click(function () {
+      // window.location.href = "aschVideo.html";
+      window.open("https://mainnet.asch.io/#/home");
+    }),
 
-  $(".homeLinks .toWallet").click(function () {
-    // window.location.href = "aschVideo.html";
-    window.open("https://mainnet.asch.io/#/home");
-  }),
+    $(".homeLinks .homeToVideo").click(function () {
+      // window.location.href = "aschVideo.html";
+      window.open("http://bbs.asch.io/");
+    }),
 
-  $(".homeLinks .homeToVideo").click(function () {
-    // window.location.href = "aschVideo.html";
-    window.open("http://bbs.asch.io/");
-  }),
+    $("#downloads  .dlist").on("click", "li", function () {
+      // 设index为当前点击
+      var index = $(this).index();
+      // 点击添加样式利用siblings清除其他兄弟节点样式
+      $(this).addClass("active").siblings().removeClass("active");
+      // 同理显示与隐藏
+      $(this).parents(".downloadsContainerLeft").find(".dlsit-list li").eq(index).show().siblings().hide();
+    }),
 
-  $("#downloads  .dlist").on("click", "li", function () {
-    // 设index为当前点击
-    var index = $(this).index();
-    // 点击添加样式利用siblings清除其他兄弟节点样式
-    $(this).addClass("active").siblings().removeClass("active");
-    // 同理显示与隐藏
-    $(this).parents(".downloadsContainerLeft").find(".dlsit-list li").eq(index).show().siblings().hide();
-  }),
-
+    // $("#introduction .introductionContainer .aschVideo").click(function () {
+    //   // window.location.href = "aschVideo.html";
+    //   window.open("aschVideo.html");
+    // })
 
   $("#introduction .introductionContainer .aschVideo").click(function () {
-    // window.location.href = "aschVideo.html";
-    // window.open("aschVideo.html");
     $("#introduction .videoContainer").css("display","block");
-    // $("#introduction .videoContainer video").src="http://asch-public.oss-cn-beijing.aliyuncs.com/asch.io/integrity.mp4\" type=\"video/mp4"
   })
-);
+
+});

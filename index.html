@@ -11,182 +11,10 @@
     <link rel="stylesheet" href="./css/commons.min.css">
     <link rel="stylesheet" href="./css/video-js.css">
     <link rel="stylesheet" href="./css/index.min.css">
-    <style>
-        /*.videoContainer {*/
-        /*position: relative;*/
-        /*width: 100%;*/
-        /*height: 100%;*/
-        /*background: #ccc;*/
+    <link rel="stylesheet" href="./css/introductionVideo.css">
 
-        /*}*/
-
-        .videoBackground {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            /*width: calc(100% + 30px);*/
-            /*height: calc(100% + 30px);*/
-            /*background: #000;*/
-            background: url("images/blurImg.jpg") no-repeat center;
-            background-size: cover;
-            z-index: 1016;
-            /*opacity:0.8;*/
-            filter:blur(10x);
-            -webkit-filter:blur(10px);
-            -moz-filter:blur(10px);
-            -ms-filter:blur(10px);
-            -o-filter:blur(10px);
-            display: none;
-
-        }
-
-        .videoBackgroundAnimate1{
-            animation: videoBackgroundAnimate1 0.5s;
-        }
-
-        .videoBackgroundAnimate2{
-            animation: videoBackgroundAnimate2 .5s;
-        }
-
-        @keyframes videoBackgroundAnimate1 {
-            0%{
-                width: 0;
-                height: 0;
-                top: 50%;
-                left: 50%;
-            }
-            100%{
-                top: 0;
-                left: 0;
-                width: calc(100% + 30px);
-                height: calc(100% + 30px);
-            }
-        }
-
-        @keyframes videoBackgroundAnimate2 {
-            0%{
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-            }
-            100%{
-                width: 0;
-                height: 0;
-                top: 50%;
-                left: 50%;
-            }
-        }
-
-
-        .m {
-            position: fixed;
-            /*width: 100%;*/
-            /*height: 100%;*/
-            /*top:0;*/
-            /*left: 0;*/
-            left: calc(50% - 480px);
-            top: calc(50% - 230px);
-            /*padding-top: 50px;*/
-            /*width:1920px;*/
-            /*height:1080px;*/
-            /*width:1344px;*/
-            /*height:756px;*/
-            width: 960px;
-            height: 540px;
-            margin-left: auto;
-            margin-right: auto;
-            /*margin-top: calc(50% - 250px);*/
-            /*margin-bottom: auto;*/
-            box-sizing: border-box;
-            z-index: 1017;
-            display: none;
-            border:6px solid #23559e;
-        }
-
-        .mOpenVideo {
-            animation: videoAnimate1 1s;
-        }
-
-        @keyframes videoAnimate1 {
-            0% {
-                width: 0;
-                height: 0;
-                left: 50%;
-                top: 50%;
-                opacity: 0;
-            }
-
-            100% {
-                left: calc(50% - 480px);
-                top: calc(50% - 230px);
-                /*padding-top: 50px;*/
-                /*width:1920px;*/
-                /*height:1080px;*/
-                /*width:1344px;*/
-                /*height:756px;*/
-                /*width: 960px;*/
-                /*height: 540px;*/
-                /*width: 100%;*/
-                /*height: 100%;*/
-                /*top: 0;*/
-                /*left: 0;*/
-                opacity: 1;
-            }
-        }
-
-        .mClosedVideo {
-            animation: videoAnimate2 1s;
-        }
-
-        @keyframes videoAnimate2 {
-            0% {
-                left: calc(50% - 480px);
-                top: calc(50% - 230px);
-                /*padding-top: 50px;*/
-                /*width:1920px;*/
-                /*height:1080px;*/
-                /*width:1344px;*/
-                /*height:756px;*/
-                width: 960px;
-                height: 540px;
-                opacity:1;
-            }
-            100% {
-                width: 0;
-                height: 0;
-                left: 50%;
-                top: 50%;
-                border: none;
-                opacity:0;
-            }
-        }
-
-        .m video {
-            width: 100%;
-            height: 100%;
-            object-fit: fill;
-        }
-
-        .m .closedVideo {
-            width: 30px;
-            height: 30px;
-            display: none;
-            position: fixed;
-            top: calc(50% - 230px);
-            right: calc(50% - 480px);
-            /*color: #fff;*/
-            background: url("images/closed.png") no-repeat center;
-            background-size: cover;
-            /*border:1px solid #000;*/
-            cursor: pointer;
-            z-index: 1016;
-        }
-    </style>
 </head>
-<body class="deScroll">
+<body class="deScroll" >
 <nav>
     <div class="navContainer">
         <a href="index.html" class="navLeft">
@@ -219,8 +47,7 @@
                     <a href="#media">Partners</a>
                 </li>
             </ul>
-            <a class="downloadWhitePaper downloadWhitePaperOne"
-               href="http://asch-public.oss-cn-beijing.aliyuncs.com/asch.io/Asch%20Whitepaper.pdf" target="_blank">Whitepaper</a>
+            <a class="downloadWhitePaper downloadWhitePaperOne" href="http://asch-public.oss-cn-beijing.aliyuncs.com/asch.io/Asch%20Whitepaper.pdf" target="_blank">Whitepaper</a>
         </div>
     </div>
 </nav>
@@ -355,8 +182,6 @@
     </video>
     <span class="closedVideo"></span>
 </div>
-
-
 <div class="section featuresOne" id="features">
     <div class="sectionTop">
         <i></i>
@@ -502,8 +327,7 @@
                     <i></i>
                     <span></span>
                     <p class="advantagesContainerText1">Low Cost</p>
-                    <p class="advantagesContainerText2">Developers can customize a gas token, which can effectively
-                        control operation costs.</p>
+                    <p class="advantagesContainerText2">Developers can customize a gas token, which can effectively control operation costs.</p>
                 </div>
             </li>
             <li>
@@ -513,8 +337,7 @@
                     <span></span>
                     <p class="advantagesContainerText1">Safety</p>
                     <p class="advantagesContainerText2">
-                        PBFT enhanced DPOS. Multi-level payment passwords. Applications are isolated to prevent error
-                        spreading. Sandbox mechanism can manage untrusted code.</p>
+                        PBFT enhanced DPOS. Multi-level payment passwords. Applications are isolated to prevent error spreading. Sandbox mechanism can manage untrusted code.</p>
                 </div>
             </li>
             <li>
@@ -523,8 +346,7 @@
                     <i></i>
                     <span></span>
                     <p class="advantagesContainerText1">Reuseability</p>
-                    <p class="advantagesContainerText2">Applications can sharing data on Asch platform. Furthermore,
-                        they can reused assets on different blockchains.</p>
+                    <p class="advantagesContainerText2">Applications can sharing data on Asch platform. Furthermore, they can reused assets on different blockchains.</p>
                     <!--<div class="advantagesContainerSupernatant"></div>-->
                 </div>
 
@@ -535,8 +357,7 @@
                     <i></i>
                     <span></span>
                     <p class="advantagesContainerText1">Flexibility</p>
-                    <p class="advantagesContainerText2">Assets and applications are decoupled. One token can be used on
-                        multi-chains, and one chain can hold multiple tokens.</p>
+                    <p class="advantagesContainerText2">Assets and applications are decoupled. One token can be used on multi-chains, and one chain can hold multiple tokens.</p>
                     <!--<div class="advantagesContainerSupernatant"></div>-->
                 </div>
 
@@ -547,8 +368,7 @@
                     <i></i>
                     <span></span>
                     <p class="advantagesContainerText1">Usability</p>
-                    <p class="advantagesContainerText2">Based on JavaScript stack,SDK supports advanced features like
-                        ORM、SmartDB etc that make DAPP development more easier.</p>
+                    <p class="advantagesContainerText2">Based on JavaScript stack,SDK supports advanced features like ORM、SmartDB etc that make DAPP development more easier.</p>
                     <!--<div class="advantagesContainerSupernatant"></div>-->
                 </div>
 
@@ -559,8 +379,7 @@
                     <i></i>
                     <span></span>
                     <p class="advantagesContainerText1">Performance</p>
-                    <p class="advantagesContainerText2">More than 1500 transactions per second, performance is scalable
-                        by fragment and parallel.</p>
+                    <p class="advantagesContainerText2">More than 1500 transactions per second, performance is scalable by fragment and parallel.</p>
                     <!--<div class="advantagesContainerSupernatant"></div>-->
                 </div>
 
@@ -775,8 +594,7 @@
                         both Android and iOS platform which is in development. It is suitable for normal users who have
                         XAS and other assets on Asch platform.</p>
                     <div class="dlistBtns">
-                        <a title="For Android"
-                           href="http://asch-public.oss-cn-beijing.aliyuncs.com/appupdate/android/app-release.apk">Download</a>
+                        <a title="For Android" href="http://asch-public.oss-cn-beijing.aliyuncs.com/appupdate/android/app-release.apk">Download</a>
                         <a href="https://github.com/AschPlatform"><span>More</span></a>
                     </div>
                 </li>
@@ -876,8 +694,7 @@
                 </li>
                 <li>
                     <i></i>
-                    <a href="https://bitcointalk.org/index.php?topic=2176697.msg21831492#msg21831492" target="_blank">Bitcoin
-                        talk</a>
+                    <a href="https://bitcointalk.org/index.php?topic=2176697.msg21831492#msg21831492" target="_blank">Bitcoin talk</a>
                 </li>
                 <li>
                     <i></i>
