@@ -57,7 +57,8 @@ nav .navContainer .navRight {
     text-align: right;
     display: inline-block;
     float: right;
-    background: 0 0
+    background: 0 0;
+    padding-right: 150px;
 }
 
 nav .navContainer .navRight .equalThan {
@@ -124,13 +125,28 @@ nav .navContainer .navRight .moreThan li a {
     padding-right: 20px
 }
 
+nav .navContainer .navRight .downloadWhitePaper{
+    position: absolute;
+    top: 26px;
+    right: 0;
+}
+
 nav .navContainer .navRight .downloadWhitePaperOne:hover{
     background:#23559e ;
 }
 
 nav .navContainer .navRight .downloadWhitePaperOne {
+    /*width: 120px;*/
+    /*height: 20px;*/
+    /*padding: 0 10px;*/
+    /*border-radius: 20px;*/
+    /*font-size: 14px;*/
+    /*margin-left: 50px;*/
+    /*color: #fff;*/
+    /*background: #567fdc;*/
     width: 120px;
     height: 20px;
+    line-height: 20px;
     padding: 0 10px;
     border-radius: 20px;
     font-size: 14px;
@@ -144,14 +160,23 @@ nav .navContainer .navRight .downloadWhitePaperTwo:hover{
 }
 
 nav .navContainer .navRight .downloadWhitePaperTwo {
+    /*width: 120px;*/
+    /*height: 20px;*/
+    /*padding: 0 10px;*/
+    /*border-radius: 20px;*/
+    /*font-size: 14px;*/
+    /*margin-left: 20px;*/
+    /*color: #fff;*/
+    /*background: #1c49ae*/
     width: 120px;
     height: 20px;
+    line-height: 20px;
     padding: 0 10px;
     border-radius: 20px;
     font-size: 14px;
     margin-left: 20px;
     color: #fff;
-    background: #1c49ae
+    background: #1c49ae;
 }
 
 @media screen and (max-width: 1920px) {
@@ -656,6 +681,102 @@ ul.homeLinks li:nth-child(4) i {
     background: #fff;
     /* margin-bottom: 50px; */
 }
+
+.showVideo::before {
+    border: 1px solid #00BCD4;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    margin: 100px auto;
+    background-color: #5cb85c;
+    font-size: 12px;
+    text-align: center;
+    color: orangered;
+    cursor: pointer;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+}
+
+
+.showVideo {
+    display: block;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 35px);
+    /* border: 1px solid #00BCD4; */
+    width: 70px;
+    height: 70px;
+    /* line-height: 120px; */
+    /* margin: 200px auto; */
+    /*background-color: red;*/
+    /* float: left; */
+    font-size: 12px;
+    text-align: center;
+    color: orangered;
+    cursor: pointer;
+    z-index: 1016;
+    overflow: hidden;
+}
+
+.showVideo span {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.showVideo span.imgShow {
+    top: 0;
+    left: -100%;
+}
+
+.showVideo span.imgShow {
+    background: url("../images/videoPlay2.png") no-repeat center;
+    background-size: cover;
+    z-index: 1016;
+}
+
+.showVideo span.imgHide {
+    background: url("../images/videoPlay1.png") no-repeat center;
+    background-size: cover;
+    z-index: 1016;
+}
+
+.showVideo .imgHide {
+    transition: All 0.1s ease-in-out;
+    /*-webkit-transition: All 0.2s ease-in-out;*/
+    /*-moz-transition: All 0.2s ease-in-out;*/
+    /*-o-transition: All 0.2s ease-in-out;*/
+}
+
+.showVideo:hover .imgHide {
+    transform: translate(0, 100%);
+    -webkit-transform: translate(0, 100%);
+    -moz-transform: translate(0, 100%);
+    -o-transform: translate(0, 100%);
+    -ms-transform: translate(0, 100%);
+}
+
+.showVideo .imgShow {
+    transition: All 0.1s ease-in-out;
+    /*-webkit-transition: All 0.2s ease-in-out;*/
+    /*-moz-transition: All 0.2s ease-in-out;*/
+    /*-o-transition: All 0.2s ease-in-out;*/
+}
+
+.showVideo:hover .imgShow {
+    transform: translate(100%, 0);
+    -webkit-transform: translate(100%, 0);
+    -moz-transform: translate(100%, 0);
+    -o-transform: translate(100%, 0);
+    -ms-transform: translate(100%, 0);
+}
+
+
+
 
 
 
@@ -1998,7 +2119,7 @@ ul.homeLinks li:nth-child(4) i {
 
 #downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a:nth-child(2) {
     width: 140px;
-    height: 50px;
+    height: 51px;
     line-height: 50px;
     text-align: center;
     border-radius: 2px;

@@ -22,7 +22,7 @@
 	min-width: 150px;
 	max-width: 250px;
 	display: block;
-	margin: 1em;
+	/*margin: 1em;*/
 	/*padding: 1em 2em;*/
 	border: none;
 	background: none;
@@ -77,7 +77,7 @@
 	font-weight: 500;
 }
 .button--text-thick {
-	font-weight: 600;
+	/*font-weight: 600;*/
 }
 .button--round-s {
 	border-radius: 5px;
@@ -342,7 +342,7 @@
 }
 .button--rayen::before,
 .button--rayen > span {
-	padding: 1em 2em;
+	/*padding: 1em 2em;*/
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
 	-webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
