@@ -52,10 +52,10 @@ function canvasLine(t, cArr, clw, cColor) {
     // draw a line segment from the last waypoint
     // to the current waypoint
 
-    var grad =ctx.createLinearGradient(points[t - 1].x, points[t - 1].y,points[t].x, points[t].y);
-    grad.addColorStop(0.5,'rgba(107,159,237,0.4)');
+    var grad = ctx.createLinearGradient(points[t - 1].x, points[t - 1].y, points[t].x, points[t].y);
+    grad.addColorStop(0.1, 'rgba(107,159,237,0.4)');
     grad.addColorStop(0.8, 'rgba(107,159,237,0.4)');
-    ctx.strokeStyle=grad;
+    ctx.strokeStyle = grad;
     ctx.beginPath();
     ctx.moveTo(points[t - 1].x, points[t - 1].y);
     ctx.lineTo(points[t].x, points[t].y);
@@ -65,29 +65,29 @@ function canvasLine(t, cArr, clw, cColor) {
     t++;
   }
 }
-//
-// setTimeout(function () {
-//   canvasLine(t, canvasArr11, clw1, cColor);
-//   canvasLine(t, canvasArr12, clw1, cColor);
-// },0);
-//
-// setTimeout(function () {
-//   canvasLine(t, canvasArr21, clw1, cColor);
-//   canvasLine(t, canvasArr22, clw1, cColor);
-// },400);
-//
-//
-// setTimeout(function () {
-//   canvasLine(t, canvasArr31, clw1, cColor);
-//   canvasLine(t, canvasArr32, clw1, cColor);
-// }, 600);
-//
-// setTimeout(function () {
-//   canvasLine(t, canvasArr41, clw1, cColor);
-//   canvasLine(t, canvasArr42, clw1, cColor);
-// }, 750);
-//
-// setTimeout(function () {
-//   canvasLine(t, canvasArr51, clw2, cColor);
-//   canvasLine(t, canvasArr52, clw2, cColor);
-// }, 900);
+
+setTimeout(function () {
+  canvasLine(t, canvasArr11, clw1, cColor);
+  canvasLine(t, canvasArr12, clw1, cColor);
+}, 0);
+
+setTimeout(function () {
+  canvasLine(t, canvasArr21, clw1, cColor);
+  canvasLine(t, canvasArr22, clw1, cColor);
+}, 400);
+
+
+setTimeout(function () {
+  canvasLine(t, canvasArr31, clw1, cColor);
+  canvasLine(t, canvasArr32, clw1, cColor);
+}, 600);
+
+setTimeout(function () {
+  canvasLine(t, canvasArr41, clw1, cColor);
+  canvasLine(t, canvasArr42, clw1, cColor);
+}, 750);
+
+setTimeout(function () {
+  canvasLine(t, canvasArr51, clw2, cColor);
+  canvasLine(t, canvasArr52, clw2, cColor);
+}, 900);

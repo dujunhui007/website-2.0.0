@@ -125,15 +125,15 @@ nav .navContainer .navRight .moreThan li a {
     padding-right: 20px
 }
 
-nav .navContainer .navRight .downloadWhitePaper{
+nav .navContainer .navRight .downloadWhitePaper {
     position: absolute;
     top: 26px;
     right: 0;
     border: none;
 }
 
-nav .navContainer .navRight .downloadWhitePaperOne:hover{
-    background:#23559e ;
+nav .navContainer .navRight .downloadWhitePaperOne:hover {
+    background: #23559e;
 }
 
 nav .navContainer .navRight .downloadWhitePaperOne {
@@ -156,7 +156,7 @@ nav .navContainer .navRight .downloadWhitePaperOne {
     background: #567fdc;
 }
 
-nav .navContainer .navRight .downloadWhitePaperTwo:hover{
+nav .navContainer .navRight .downloadWhitePaperTwo:hover {
     background: #050572;
 }
 
@@ -185,7 +185,8 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
         /*padding-right: 70px*/
         margin-right: 100px;
     }
-    nav .navContainer .navRight .downloadWhitePaperOne{
+
+    nav .navContainer .navRight .downloadWhitePaperOne {
         width: 120px;
         height: 20px;
         padding: 0 10px;
@@ -202,7 +203,8 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     background: url(../images/toTopBackHover.png) no-repeat center;
     background-size: cover
 }
-.toTop:hover span i{
+
+.toTop:hover span i {
     background: url(../images/toTopArrow2.png) no-repeat center;
     background-size: cover
 }
@@ -220,14 +222,14 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     cursor: pointer
 }
 
-.toTop span{
+.toTop span {
     position: relative;
     display: block;
     width: 100%;
     height: 100%;
 }
 
-.toTop span i{
+.toTop span i {
     position: absolute;
     display: block;
     width: 12px;
@@ -268,6 +270,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
         /*filter: alpha(opacity=50);*/
     }
 }
+
 @keyframes toTopMove {
     0% {
         /*top: 19px;*/
@@ -317,8 +320,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     /*animation: homeLogoAmimate 2.5s linear .5s forwards*/
 }
 
-
-.section .homeLogoAmimateOne{
+.section .homeLogoAmimateOne {
     position: absolute;
     width: 0;
     height: 0;
@@ -330,7 +332,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     animation: homeLogoAmimateOne 1.5s linear .5s forwards
 }
 
-.homeLogoAmimateTwo{
+.homeLogoAmimateTwo {
     position: absolute;
     width: 200px;
     height: 200px;
@@ -365,6 +367,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
         opacity: 1
     }
 }
+
 @keyframes homeLogoAmimateOne {
     0% {
         width: 200px;
@@ -424,6 +427,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
         opacity: 1
     }
 }
+
 @keyframes homeLogoAmimateTwo {
     0% {
         /*width: 200px;*/
@@ -459,7 +463,6 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
         opacity: 1
     }
 }
-
 
 .section .aschLogo img {
     display: block;
@@ -503,12 +506,85 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
 }
 
 #home {
+    position: relative;
     width: 100%;
     height: 100%;
     box-shadow: 0 0 10px #000;
     z-index: 100;
     background: url(../images/bg.png) no-repeat center;
     background-size: cover
+}
+
+#home .homeLine1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    background: transparent;
+    z-index: 2;
+    animation: homeLine1 2s;
+    /*transform: rotate(0deg);*/
+}
+
+#home .homeLine2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    background: transparent;
+    z-index: 2;
+    animation: homeLine2 2s;
+    /*transform: rotate(0deg);*/
+}
+
+
+@keyframes homeLine1 {
+    0%{
+        bottom: -100%;
+        right: -50%;
+    }
+    100%{
+        bottom: 0;
+        right: 0;
+    }
+}
+
+
+@keyframes homeLine2 {
+    0%{
+        bottom: -100%;
+        left: -50%;
+    }
+    100%{
+        bottom: 0;
+        left: 0;
+    }
+}
+
+#home .homeLine1 span {
+    display: block;
+    position: absolute;
+    width: 150%;
+    height: 2px;
+    top: 55%;
+    left: -6.5%;
+    background: -webkit-gradient(linear, 0 0, 100% 100%, from(#05c4f8), to(transparent));
+    z-index: 3;
+    transform: rotate(45deg);
+}
+
+#home .homeLine2 span {
+    display: block;
+    position: absolute;
+    width: 150%;
+    height: 2px;
+    top: 55%;
+    right: -6.5%;
+    background: -webkit-gradient(linear, 0 0, 100% 100%, from(#05c4f8), to(transparent));
+    z-index: 3;
+    transform: rotate(135deg);
 }
 
 #home p {
@@ -699,7 +775,6 @@ ul.homeLinks li:nth-child(4) i {
     transform: translate3d(-100%, 0, 0);
 }
 
-
 .showVideo {
     display: block;
     position: absolute;
@@ -777,27 +852,20 @@ ul.homeLinks li:nth-child(4) i {
     -ms-transform: translate(100%, 0);
 }
 
-
-
-
-
-
-
-
-@media screen and (max-width: 1920px){
+@media screen and (max-width: 1920px) {
     /*#introduction .videoContainer{*/
-        /*height: 620px;*/
+    /*height: 620px;*/
     /*}*/
 }
 
 /*#introduction .videoContainer .m{*/
-    /*width: 100%;*/
-    /*height: 100%;*/
+/*width: 100%;*/
+/*height: 100%;*/
 /*}*/
 
 /*#introduction .videoContainer .m video{*/
-    /*width: 100%;*/
-    /*height: 100%;*/
+/*width: 100%;*/
+/*height: 100%;*/
 /*}*/
 
 #introduction .introductionContainer {
@@ -1361,8 +1429,7 @@ ul.homeLinks li:nth-child(4) i {
     z-index: 3
 }
 
-
-@media screen and (max-width: 1920px){
+@media screen and (max-width: 1920px) {
     #advantages .advantageLogo {
         width: 404px;
         height: 380px;
@@ -1375,9 +1442,6 @@ ul.homeLinks li:nth-child(4) i {
     }
 }
 
-
-
-
 #advantages hr {
     position: absolute;
     top: calc(50% - 148px);
@@ -1389,7 +1453,7 @@ ul.homeLinks li:nth-child(4) i {
     opacity: .5
 }
 
-@media screen and (max-width: 1920px){
+@media screen and (max-width: 1920px) {
     #advantages hr {
         position: absolute;
         top: calc(50% - 128px);
@@ -1401,7 +1465,6 @@ ul.homeLinks li:nth-child(4) i {
         opacity: .5
     }
 }
-
 
 #advantages .hrAnimate {
     -webkit-animation: aschBoundary 1s;
@@ -1725,16 +1788,14 @@ ul.homeLinks li:nth-child(4) i {
     /*background-size: cover*/
 }
 
-#scenarios .scenariosBackground img{
+#scenarios .scenariosBackground img {
     width: 100%;
 }
 
-
-#scenarios .scenariosContainerCenter{
+#scenarios .scenariosContainerCenter {
     width: 70%;
     margin: 0 auto;
 }
-
 
 #scenarios .scenariosTitle {
     height: 70px;
@@ -2226,8 +2287,6 @@ ul.homeLinks li:nth-child(4) i {
     z-index: 2
 }
 
-
-
 @media screen and (max-width: 1920px) {
     #downloads .downloadsContainer {
         width: 70%;
@@ -2554,7 +2613,7 @@ ul.homeLinks li:nth-child(4) i {
     }
 }
 
-@media screen and (min-width:1640px) and (max-width:1920px){
+@media screen and (min-width: 1640px) and (max-width: 1920px) {
     #downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3) {
         padding-top: 5px;
         box-sizing: border-box;
@@ -2579,31 +2638,31 @@ ul.homeLinks li:nth-child(4) i {
 }
 
 #media .mediaContainer a:nth-child(1) {
-    background: url(../images/mediaLink11.png) no-repeat center;
-    background-size: cover
-}
-
-#media .mediaContainer a:hover {
-    box-shadow: 0 0 12px rgba(0,0,0,.3);
-}
-
-#media .mediaContainer a:nth-child(2) {
-    background: url(../images/mediaLink22.png) no-repeat center;
-    background-size: cover
-}
-
-#media .mediaContainer a:nth-child(3) {
     background: url(../images/mediaLink33.png) no-repeat center;
     background-size: cover
 }
 
-#media .mediaContainer a:nth-child(4) {
+#media .mediaContainer a:hover {
+    box-shadow: 0 0 12px rgba(0, 0, 0, .3);
+}
+
+#media .mediaContainer a:nth-child(2) {
     background: url(../images/mediaLink44.png) no-repeat center;
     background-size: cover
 }
 
-#media .mediaContainer a:nth-child(5) {
+#media .mediaContainer a:nth-child(3) {
     background: url(../images/mediaLink55.png) no-repeat center;
+    background-size: cover
+}
+
+#media .mediaContainer a:nth-child(4) {
+    background: url(../images/mediaLink11.png) no-repeat center;
+    background-size: cover
+}
+
+#media .mediaContainer a:nth-child(5) {
+    background: url(../images/mediaLink22.png) no-repeat center;
     background-size: cover
 }
 
@@ -2612,7 +2671,7 @@ ul.homeLinks li:nth-child(4) i {
     width: 191px;
     height: 84px;
     /*border: 1px solid #ccc;*/
-    box-shadow: 0 0 6px rgba(0,0,0,.2);
+    box-shadow: 0 0 6px rgba(0, 0, 0, .2);
     border-radius: 3px;
 }
 
@@ -2625,36 +2684,32 @@ ul.homeLinks li:nth-child(4) i {
     }
 
     #media .mediaContainer a:nth-child(1) {
-        background: url(../images/mediaLink11.png) no-repeat center;
-        background-size: cover
-    }
-
-
-    #media .mediaContainer a:nth-child(2) {
-        background: url(../images/mediaLink22.png) no-repeat center;
-        background-size: cover
-    }
-
-    #media .mediaContainer a:nth-child(3) {
         background: url(../images/mediaLink33.png) no-repeat center;
         background-size: cover
     }
 
-
-
-    #media .mediaContainer a:nth-child(4) {
+    #media .mediaContainer a:nth-child(2) {
         background: url(../images/mediaLink44.png) no-repeat center;
         background-size: cover
     }
 
-
-    #media .mediaContainer a:nth-child(5) {
+    #media .mediaContainer a:nth-child(3) {
         background: url(../images/mediaLink55.png) no-repeat center;
         background-size: cover
     }
 
+    #media .mediaContainer a:nth-child(4) {
+        background: url(../images/mediaLink11.png) no-repeat center;
+        background-size: cover
+    }
+
+    #media .mediaContainer a:nth-child(5) {
+        background: url(../images/mediaLink22.png) no-repeat center;
+        background-size: cover
+    }
+
     #media .mediaContainer a:hover {
-        box-shadow: 0 0 12px rgba(0,0,0,.3);
+        box-shadow: 0 0 12px rgba(0, 0, 0, .3);
     }
 
     #media .mediaContainer a {
@@ -2662,7 +2717,7 @@ ul.homeLinks li:nth-child(4) i {
         width: 170px;
         height: 80px;
         /* border: 1px solid #ccc; */
-        box-shadow: 0 0 6px rgba(0,0,0,.2);
+        box-shadow: 0 0 6px rgba(0, 0, 0, .2);
         border-radius: 3px;
     }
 }
@@ -2684,8 +2739,6 @@ ul.homeLinks li:nth-child(4) i {
     width: 70%;
     margin: 0 auto;
 }
-
-
 
 #links .linksContainer .linksItems span {
     width: 100%;
@@ -2727,18 +2780,17 @@ ul.homeLinks li:nth-child(4) i {
     font-size: 14px
 }
 
-
 #links .linksContainer .linksItems:first-child:hover ul {
-    /*cursor: default*/
+    cursor: default
 }
 
 #links .linksContainer .linksItems:first-child:hover ul li {
-    /*cursor: default*/
+    cursor: default
 }
 
 #links .linksContainer .linksItems:first-child:hover a {
-    /*cursor: default;*/
-    /*color: #cdcdcd*/
+    cursor: default;
+    color: #cdcdcd
 }
 
 footer {
@@ -2750,12 +2802,11 @@ footer {
     background: #282a2b;
 }
 
-footer .footerContainer{
+footer .footerContainer {
     position: relative;
     width: 70%;
     margin: 0 auto;
 }
-
 
 footer .footerLeft {
     width: 40%;
