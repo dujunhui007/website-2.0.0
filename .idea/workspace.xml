@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1022bd6-4fe7-403a-a3fd-29d777c427ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/index1.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index2.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/bg.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/mediaLink1.png" afterPath="$PROJECT_DIR$/images/mediaLink33.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/mediaLink2.png" afterPath="$PROJECT_DIR$/images/mediaLink44.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/mediaLink3.png" afterPath="$PROJECT_DIR$/images/mediaLink55.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/mediaLink4.png" afterPath="$PROJECT_DIR$/images/mediaLink11.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/mediaLink5.png" afterPath="$PROJECT_DIR$/images/mediaLink22.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.less" afterPath="$PROJECT_DIR$/css/index.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.min.css" afterPath="$PROJECT_DIR$/css/index.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index2.min.css" afterPath="$PROJECT_DIR$/css/index2.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aschVideo.html" afterPath="$PROJECT_DIR$/aschVideo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/introductionVideo.css" afterPath="$PROJECT_DIR$/css/introductionVideo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/video-js.css" afterPath="$PROJECT_DIR$/css/video-js.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/homeCanvas.js" afterPath="$PROJECT_DIR$/js/homeCanvas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,14 +24,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.780154">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="394">
-                  <caret line="631" column="6" lean-forward="true" selection-start-line="631" selection-start-column="6" selection-end-line="631" selection-end-column="6" />
+                <state relative-caret-position="-35">
+                  <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
                   <folding>
                     <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#a#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -49,7 +40,6 @@
                     <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -60,10 +50,71 @@
                     <element signature="n#ul#0;n#div#0;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#0;n#li#0;n#ul#1;n#div#0;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#p#0;n#li#0;n#ul#1;n#div#0;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#li#6;n#ul#0;n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="introductionVideo.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/introductionVideo.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-524">
+                  <caret line="191" column="18" lean-forward="true" selection-start-line="191" selection-start-column="18" selection-end-line="191" selection-end-column="18" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="video.min.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/video.min.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="297">
+                  <caret line="758" column="7" lean-forward="true" selection-start-line="758" selection-start-column="7" selection-end-line="758" selection-end-column="7" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="video-js.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/video-js.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-7619">
+                  <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/js/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="410">
+                  <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="aschVideo.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/aschVideo.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="360">
+                  <caret line="14" column="146" lean-forward="false" selection-start-line="14" selection-start-column="146" selection-end-line="14" selection-end-column="146" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="aschVideo.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/aschVideo.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-90">
+                  <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -75,8 +126,8 @@
           <file leaf-file-name="index.min.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/index.min.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="393">
-                  <caret line="2654" column="0" lean-forward="true" selection-start-line="2654" selection-start-column="0" selection-end-line="2654" selection-end-column="0" />
+                <state relative-caret-position="466">
+                  <caret line="2618" column="0" lean-forward="false" selection-start-line="2618" selection-start-column="0" selection-end-line="2618" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -102,14 +153,11 @@
       <list>
         <option value="$PROJECT_DIR$/videojs/js/video.min.js" />
         <option value="$PROJECT_DIR$/videojs/js/videojs-ie8.min.js" />
-        <option value="$PROJECT_DIR$/aschVideo.html" />
         <option value="$PROJECT_DIR$/videojs/index.html" />
         <option value="$PROJECT_DIR$/css/aschVideo.css" />
-        <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/videojs/video.html" />
         <option value="$PROJECT_DIR$/videojs/css/video-js.css" />
         <option value="$PROJECT_DIR$/mohu.html" />
-        <option value="$PROJECT_DIR$/css/video-js.css" />
         <option value="$PROJECT_DIR$/js/videoPaly.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/btnHoverCss/base.css" />
@@ -120,7 +168,11 @@
         <option value="$PROJECT_DIR$/index1.html" />
         <option value="$PROJECT_DIR$/css/index1.min.css" />
         <option value="$PROJECT_DIR$/css/index.min.css" />
+        <option value="$PROJECT_DIR$/css/introductionVideo.css" />
+        <option value="$PROJECT_DIR$/css/video-js.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/aschVideo.html" />
+        <option value="$PROJECT_DIR$/js/index.js" />
       </list>
     </option>
   </component>
@@ -168,17 +220,6 @@
             <path>
               <item name="website-2.0.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="website-2.0.0" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="index.less" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="website-2.0.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="website-2.0.0" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="website-2.0.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="website-2.0.0" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -192,7 +233,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="C:/myIndex/dujunhui007.github.io" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="m.p&#9;FILE&#9;file://C:/Asch-Items/website-2.0.0/videojs/m.png&#10;video&#9;null&#9;null&#10;my-video&#9;null&#9;null&#10;my-video-dimensions&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="video-js&#9;null&#9;null&#10;my&#9;null&#9;null&#10;.video-js&#9;null&#9;null&#10;m.p&#9;FILE&#9;file://C:/Asch-Items/website-2.0.0/videojs/m.png&#10;video&#9;null&#9;null&#10;my-video&#9;null&#9;null&#10;my-video-dimensions&#9;null&#9;null" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
@@ -231,15 +272,16 @@
       <updated>1513936745613</updated>
       <workItem from="1513936747082" duration="15175000" />
       <workItem from="1514186333661" duration="38153000" />
-      <workItem from="1514345335966" duration="26523000" />
+      <workItem from="1514345335966" duration="30891000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79851000" />
+    <option name="totallyTimeSpent" value="84219000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -248,7 +290,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.112351194" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13020833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -273,14 +315,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/index.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61470">
-          <caret line="2049" column="0" lean-forward="true" selection-start-line="2049" selection-start-column="0" selection-end-line="2049" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -322,6 +356,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -358,6 +393,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11820">
           <caret line="394" column="21" lean-forward="false" selection-start-line="394" selection-start-column="21" selection-end-line="394" selection-end-column="21" />
+          <folding>
+            <element signature="e#549#5542#1" expanded="true" />
+            <element signature="e#5559#13261#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -380,6 +419,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
           <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -395,32 +435,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/aschVideo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aschVideo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/videojs/js/video.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/video.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="1088" column="0" lean-forward="true" selection-start-line="1088" selection-start-column="0" selection-end-line="1088" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -444,6 +462,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="724" column="0" lean-forward="true" selection-start-line="724" selection-start-column="0" selection-end-line="724" selection-end-column="0" />
+          <folding>
+            <element signature="e#549#5542#1" expanded="true" />
+            <element signature="e#5559#13261#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -479,26 +501,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/video-js.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="819" column="0" lean-forward="true" selection-start-line="819" selection-start-column="0" selection-end-line="819" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/videoPaly.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="100" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -688,16 +694,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="2654" column="0" lean-forward="true" selection-start-line="2654" selection-start-column="0" selection-end-line="2654" selection-end-column="0" />
+        <state relative-caret-position="466">
+          <caret line="2618" column="0" lean-forward="false" selection-start-line="2618" selection-start-column="0" selection-end-line="2618" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/video.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="758" column="7" lean-forward="true" selection-start-line="758" selection-start-column="7" selection-end-line="758" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/video-js.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7619">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/introductionVideo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-524">
+          <caret line="191" column="18" lean-forward="true" selection-start-line="191" selection-start-column="18" selection-end-line="191" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="631" column="6" lean-forward="true" selection-start-line="631" selection-start-column="6" selection-end-line="631" selection-end-column="6" />
+        <state relative-caret-position="-35">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#a#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -706,7 +736,6 @@
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -717,10 +746,35 @@
             <element signature="n#ul#0;n#div#0;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#li#0;n#ul#1;n#div#0;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#p#0;n#li#0;n#ul#1;n#div#0;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#6;n#ul#0;n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/aschVideo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aschVideo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="14" column="146" lean-forward="false" selection-start-line="14" selection-start-column="146" selection-end-line="14" selection-end-column="146" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>

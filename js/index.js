@@ -22,8 +22,16 @@ $(document).ready(function () {
   }
 
   if (isEdge > -1) {
+    $("#introduction .introductionContainer .aschVideo").click(function () {
+      $("#introduction .videoContainer").css("display","none");
+        window.open("aschVideo.html");
+    });
     $("#home .aschLogo").addClass("homeLogoAmimateTwo").removeClass("homeLogoAmimateOne");
   } else if (!!window.ActiveXObject || "ActiveXObject" in window) {
+    $("#introduction .introductionContainer .aschVideo").click(function () {
+      $("#introduction .videoContainer").css("display","none");
+        window.open("aschVideo.html");
+    });
     $("#home .aschLogo").addClass("homeLogoAmimateTwo").removeClass("homeLogoAmimateOne");
   } else {
     $("#home .aschLogo").addClass("homeLogoAmimateOne").removeClass("homeLogoAmimateTwo");
