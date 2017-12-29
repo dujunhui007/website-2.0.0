@@ -18,20 +18,16 @@ $(document).ready(function () {
   }
 
   if (isQQBrowser || is360) {
-   $("#scenarios .scenariosContainerCenter .scenariosTitle h3").css("font-size","14px")
+    $("#scenarios .scenariosContainerCenter .scenariosTitle h3").css("font-size", "14px")
   }
 
   if (isEdge > -1) {
-    $("#introduction .introductionContainer .aschVideo").click(function () {
-      $("#introduction .videoContainer").css("display","none");
-        window.open("aschVideo.html");
-    });
     $("#home .aschLogo").addClass("homeLogoAmimateTwo").removeClass("homeLogoAmimateOne");
   } else if (!!window.ActiveXObject || "ActiveXObject" in window) {
-    $("#introduction .introductionContainer .aschVideo").click(function () {
-      $("#introduction .videoContainer").css("display","none");
-        window.open("aschVideo.html");
-    });
+    // $("#introduction .introductionContainer .aschVideo").click(function () {
+    //   $("#introduction .videoContainer").css("display", "none");
+    //   // window.open("aschVideo.html");
+    // });
     $("#home .aschLogo").addClass("homeLogoAmimateTwo").removeClass("homeLogoAmimateOne");
   } else {
     $("#home .aschLogo").addClass("homeLogoAmimateOne").removeClass("homeLogoAmimateTwo");
@@ -109,15 +105,22 @@ $(document).ready(function () {
       $(this).addClass("active").siblings().removeClass("active");
       // 同理显示与隐藏
       $(this).parents(".downloadsContainerLeft").find(".dlsit-list li").eq(index).show().siblings().hide();
-    }),
+    })
 
     // $("#introduction .introductionContainer .aschVideo").click(function () {
     //   // window.location.href = "aschVideo.html";
     //   window.open("aschVideo.html");
     // })
 
-  $("#introduction .introductionContainer .aschVideo").click(function () {
-    $("#introduction .videoContainer").css("display","block");
-  })
-
+    // $("#introduction .introductionContainer .aschVideo").click(function () {
+    //   if (isEdge > -1) {
+    //     $("#introduction .videoContainer").css("display", "none");
+    //     window.open("aschVideo.html");
+    //   } else if (!!window.ActiveXObject || "ActiveXObject" in window) {
+    //     $("#introduction .videoContainer").css("display", "none");
+    //     window.open("aschVideo.html");
+    //   } else {
+    //     $("#introduction .videoContainer").css("display", "block");
+    //   }
+    // })
 });
