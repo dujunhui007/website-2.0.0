@@ -558,8 +558,8 @@ ul.homeLinks {
 ul.homeLinks li:hover {
     border-bottom: 3px solid #567fdc;
     background: #fff;
-    width: calc(25% + 3px);
-    margin-left: -2px;
+    /*width: calc(25% + 3px);*/
+    /*margin-left: -2px;*/
     z-index: 102
 }
 

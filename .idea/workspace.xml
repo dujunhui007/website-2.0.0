@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c1022bd6-4fe7-403a-a3fd-29d777c427ac" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/introductionVideo.css" afterPath="$PROJECT_DIR$/css/introductionVideo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/aschVideoIndex.js" afterPath="$PROJECT_DIR$/js/aschVideoIndex.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/videoPaly.js" afterPath="$PROJECT_DIR$/js/videoPaly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.min.css" afterPath="$PROJECT_DIR$/css/index.min.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,20 +20,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.780154">
+    <splitter split-orientation="horizontal" split-proportion="0.5201027">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="videoPaly.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/videoPaly.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="720">
+                <state relative-caret-position="960">
                   <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#354#529#0" expanded="false" />
-                    <element signature="e#1193#1671#0" expanded="false" />
-                    <element signature="e#1709#1996#0" expanded="false" />
-                    <element signature="e#2036#2120#0" expanded="false" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -55,7 +46,7 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
+                <state relative-caret-position="766">
                   <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
                   <folding>
                     <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -132,8 +123,8 @@
           <file leaf-file-name="index.min.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/index.min.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="466">
-                  <caret line="2618" column="0" lean-forward="false" selection-start-line="2618" selection-start-column="0" selection-end-line="2618" selection-end-column="0" />
+                <state relative-caret-position="181">
+                  <caret line="559" column="21" lean-forward="true" selection-start-line="559" selection-start-column="21" selection-end-line="559" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -177,7 +168,6 @@
         <option value="$PROJECT_DIR$/js/homeCanvas.js" />
         <option value="$PROJECT_DIR$/index1.html" />
         <option value="$PROJECT_DIR$/css/index1.min.css" />
-        <option value="$PROJECT_DIR$/css/index.min.css" />
         <option value="$PROJECT_DIR$/css/video-js.css" />
         <option value="$PROJECT_DIR$/aschVideo.html" />
         <option value="$PROJECT_DIR$/css/introductionVideo.css" />
@@ -185,6 +175,7 @@
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/videoPaly.js" />
+        <option value="$PROJECT_DIR$/css/index.min.css" />
       </list>
     </option>
   </component>
@@ -230,20 +221,26 @@
             <path>
               <item name="website-2.0.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="website-2.0.0" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="index.less" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="website-2.0.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-2.0.0" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/myIndex/dujunhui007.github.io" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../asch-website-2/asch-new-Website" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SearchEverywhereHistoryKey" value="video-js&#9;null&#9;null&#10;my&#9;null&#9;null&#10;.video-js&#9;null&#9;null&#10;m.p&#9;FILE&#9;file://C:/Asch-Items/website-2.0.0/videojs/m.png&#10;video&#9;null&#9;null&#10;my-video&#9;null&#9;null&#10;my-video-dimensions&#9;null&#9;null" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -291,12 +288,13 @@
       <workItem from="1513936747082" duration="15175000" />
       <workItem from="1514186333661" duration="38153000" />
       <workItem from="1514345335966" duration="35013000" />
-      <workItem from="1514515384887" duration="238000" />
+      <workItem from="1514515384887" duration="1585000" />
+      <workItem from="1514812556461" duration="210000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88579000" />
+    <option name="totallyTimeSpent" value="90136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -640,14 +638,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="2618" column="0" lean-forward="false" selection-start-line="2618" selection-start-column="0" selection-end-line="2618" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/video-js.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5894">
@@ -714,20 +704,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/videoPaly.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
+        <state relative-caret-position="960">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="e#354#529#0" expanded="false" />
-            <element signature="e#1193#1671#0" expanded="false" />
-            <element signature="e#1709#1996#0" expanded="false" />
-            <element signature="e#2036#2120#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="766">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -752,6 +737,14 @@
             <element signature="n#li#6;n#ul#0;n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="559" column="21" lean-forward="true" selection-start-line="559" selection-start-column="21" selection-end-line="559" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
