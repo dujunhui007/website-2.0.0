@@ -68,7 +68,7 @@
 /* Typography and Roundedness */
 .button--text-upper {
 	letter-spacing: 2px;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 .button--text-thin {
 	font-weight: 300;
