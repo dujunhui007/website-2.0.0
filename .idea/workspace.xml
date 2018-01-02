@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1022bd6-4fe7-403a-a3fd-29d777c427ac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.min.css" afterPath="$PROJECT_DIR$/css/index.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.min.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.min.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/index.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="2570" column="0" lean-forward="true" selection-start-line="2570" selection-start-column="0" selection-end-line="2570" selection-end-column="0" />
+            <state relative-caret-position="232">
+              <caret line="2250" column="32" lean-forward="true" selection-start-line="2250" selection-start-column="32" selection-end-line="2250" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -54,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="290">
@@ -171,8 +169,8 @@
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/btnHoverCss/buttons.css" />
         <option value="$PROJECT_DIR$/js/videoPaly.js" />
-        <option value="$PROJECT_DIR$/css/index.min.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/index.min.css" />
       </list>
     </option>
   </component>
@@ -286,12 +284,12 @@
       <workItem from="1514186333661" duration="38153000" />
       <workItem from="1514345335966" duration="35013000" />
       <workItem from="1514515384887" duration="1585000" />
-      <workItem from="1514812556461" duration="9009000" />
+      <workItem from="1514812556461" duration="9749000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98935000" />
+    <option name="totallyTimeSpent" value="99675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -712,14 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="2570" column="0" lean-forward="true" selection-start-line="2570" selection-start-column="0" selection-end-line="2570" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -749,6 +739,14 @@
             <element signature="n#div#3;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="2250" column="32" lean-forward="true" selection-start-line="2250" selection-start-column="32" selection-end-line="2250" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
