@@ -127,15 +127,15 @@ nav .navContainer .navRight .moreThan li a {
     padding-right: 20px
 }
 
-nav .navContainer .navRight .downloadWhitePaper{
+nav .navContainer .navRight .downloadWhitePaper {
     position: absolute;
     top: 26px;
     right: 0;
     border: none;
 }
 
-nav .navContainer .navRight .downloadWhitePaperOne:hover{
-    background:#23559e ;
+nav .navContainer .navRight .downloadWhitePaperOne:hover {
+    background: #23559e;
 }
 
 nav .navContainer .navRight .downloadWhitePaperOne {
@@ -158,7 +158,7 @@ nav .navContainer .navRight .downloadWhitePaperOne {
     background: #567fdc;
 }
 
-nav .navContainer .navRight .downloadWhitePaperTwo:hover{
+nav .navContainer .navRight .downloadWhitePaperTwo:hover {
     background: #050572;
 }
 
@@ -187,7 +187,8 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
         /*padding-right: 70px*/
         margin-right: 100px;
     }
-    nav .navContainer .navRight .downloadWhitePaperOne{
+
+    nav .navContainer .navRight .downloadWhitePaperOne {
         width: 120px;
         height: 20px;
         padding: 0 10px;
@@ -204,7 +205,8 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     background: url(../images/toTopBackHover.png) no-repeat center;
     background-size: cover
 }
-.toTop:hover span i{
+
+.toTop:hover span i {
     background: url(../images/toTopArrow2.png) no-repeat center;
     background-size: cover
 }
@@ -222,14 +224,14 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     cursor: pointer
 }
 
-.toTop span{
+.toTop span {
     position: relative;
     display: block;
     width: 100%;
     height: 100%;
 }
 
-.toTop span i{
+.toTop span i {
     position: absolute;
     display: block;
     width: 12px;
@@ -270,6 +272,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
         /*filter: alpha(opacity=50);*/
     }
 }
+
 @keyframes toTopMove {
     0% {
         /*top: 19px;*/
@@ -319,8 +322,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     /*animation: homeLogoAmimate 2.5s linear .5s forwards*/
 }
 
-
-.section .homeLogoAmimateOne{
+.section .homeLogoAmimateOne {
     position: absolute;
     width: 0;
     height: 0;
@@ -332,7 +334,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     animation: homeLogoAmimateOne 1.5s linear .5s forwards
 }
 
-.homeLogoAmimateTwo{
+.homeLogoAmimateTwo {
     position: absolute;
     width: 200px;
     height: 200px;
@@ -367,6 +369,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
         opacity: 1
     }
 }
+
 @keyframes homeLogoAmimateOne {
     0% {
         width: 200px;
@@ -426,6 +429,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
         opacity: 1
     }
 }
+
 @keyframes homeLogoAmimateTwo {
     0% {
         /*width: 200px;*/
@@ -461,7 +465,6 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
         opacity: 1
     }
 }
-
 
 .section .aschLogo img {
     display: block;
@@ -505,12 +508,56 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
 }
 
 #home {
+    position: relative;
     width: 100%;
     height: 100%;
     box-shadow: 0 0 10px #000;
     z-index: 100;
-    background: url(../images/bg.png) no-repeat center;
+    background: url(../images/bg.jpg) no-repeat center;
     background-size: cover
+}
+
+#home .aschHomeImg1 {
+    position: absolute;
+    width: 700px;
+    height: 100px;
+    top: 40%;
+    left: 20%;
+}
+
+#home .aschHomeImg1 img {
+    width: 100%;
+}
+
+#home .aschHomeLinks {
+    position: absolute;
+    width: 550px;
+    height: 60px;
+    top: 60%;
+    left: 20%;
+}
+
+#home .aschHomeLinks a {
+    display: inline-block;
+    width: 250px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#home .aschHomeLinks a img{
+    margin-top: 12px;
+}
+
+#home .aschHomeLinks a:nth-child(1) {
+    display: inline-block;
+    background: #ffa81c;
+}
+
+#home .aschHomeLinks a:nth-child(2) {
+    display: inline-block;
+    background: #fff;
 }
 
 #home p {
@@ -547,7 +594,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
 ul.homeLinks {
     width: 100%;
     height: 130px;
-    background: #f3f7fd;
+    background: #f5f9ff;
     padding: 0 15%;
     box-sizing: border-box;
     display: -webkit-flex;
@@ -619,7 +666,7 @@ ul.homeLinks li .linksIcon span {
 
 ul.homeLinks li p:nth-child(2) {
     font-size: 20px;
-    color: #5784e8
+    color: #464646
 }
 
 ul.homeLinks li p {
@@ -686,6 +733,13 @@ ul.homeLinks li:nth-child(4) i {
     /* margin-bottom: 50px; */
 }
 
+#introduction .sectionTop i {
+    width: 18px;
+    height: 31px;
+    background: url("../images/introductionTopIcon.png") no-repeat center;
+    background-size: cover;
+}
+
 .showVideo::before {
     border: 1px solid #00BCD4;
     width: 120px;
@@ -701,11 +755,10 @@ ul.homeLinks li:nth-child(4) i {
     transform: translate3d(-100%, 0, 0);
 }
 
-
 .showVideo {
     display: block;
     position: absolute;
-    top: calc(50% - 50px);
+    top: calc(50% - 35px);
     left: calc(50% - 35px);
     /* border: 1px solid #00BCD4; */
     width: 70px;
@@ -779,27 +832,20 @@ ul.homeLinks li:nth-child(4) i {
     -ms-transform: translate(100%, 0);
 }
 
-
-
-
-
-
-
-
-@media screen and (max-width: 1920px){
+@media screen and (max-width: 1920px) {
     /*#introduction .videoContainer{*/
-        /*height: 620px;*/
+    /*height: 620px;*/
     /*}*/
 }
 
 /*#introduction .videoContainer .m{*/
-    /*width: 100%;*/
-    /*height: 100%;*/
+/*width: 100%;*/
+/*height: 100%;*/
 /*}*/
 
 /*#introduction .videoContainer .m video{*/
-    /*width: 100%;*/
-    /*height: 100%;*/
+/*width: 100%;*/
+/*height: 100%;*/
 /*}*/
 
 #introduction .introductionContainer {
@@ -886,8 +932,8 @@ ul.homeLinks li:nth-child(4) i {
     height: 100%;
     top: 0;
     left: 0;
-    background: url(../images/aschVideoShade.png) no-repeat center;
-    background-size: cover;
+    /*background: url(../images/aschVideoShade.png) no-repeat center;*/
+    /*background-size: cover;*/
     opacity: .2;
     z-index: 1013
 }
@@ -904,8 +950,9 @@ ul.homeLinks li:nth-child(4) i {
     background: url(../images/videoPlay1.png) no-repeat center;
     background-size: cover;
     position: absolute;
-    top: calc(50% - 60px);
+    top: calc(50% - 35px);
     left: calc(50% - 35px);
+    /*left: 10%;*/
     cursor: pointer
 }
 
@@ -916,8 +963,9 @@ ul.homeLinks li:nth-child(4) i {
     background: url(../images/aschVideoText.png) no-repeat center;
     background-size: cover;
     position: absolute;
-    top: calc(50% + 20px);
-    left: calc(50% - 198px);
+    top: calc(50% - 24px);
+    /*left: calc(50% - 198px);*/
+    left: 10%;
 }
 
 #introduction .introductionContainer .aschVideo p {
@@ -934,6 +982,13 @@ ul.homeLinks li:nth-child(4) i {
     padding: 70px 0 100px 0;
     box-sizing: border-box;
     background: #f5f9ff;
+}
+
+#application .sectionTop i {
+    width: 31px;
+    height: 31px;
+    background: url("../images/applicationTopIcon.png") no-repeat center;
+    background-size: cover;
 }
 
 .applicationContainer {
@@ -1001,11 +1056,63 @@ ul.homeLinks li:nth-child(4) i {
 }
 
 .applicationContainer .applicationCenter ul li .hotTopImg {
+    position: relative;
     width: 100%;
+    z-index: 2;
 }
 
 .applicationContainer .applicationCenter ul li .hotTopImg img {
+    position: relative;
     width: 100%;
+    z-index: 2;
+}
+
+.applicationContainer .applicationCenter ul li:nth-child(1) .hotTopImg i {
+    position: absolute;
+    display: block;
+    width: 70px;
+    height: 66px;
+    right: 10px;
+    bottom: -45px;
+    background: url(../images/cctimeWatermark.png) no-repeat center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.applicationContainer .applicationCenter ul li:nth-child(2) .hotTopImg i {
+    position: absolute;
+    display: block;
+    width: 70px;
+    height: 66px;
+    right: 10px;
+    bottom: -53px;
+    background: url(../images/kmcWatermark.png) no-repeat center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.applicationContainer .applicationCenter ul li:nth-child(3) .hotTopImg i {
+    position: absolute;
+    display: block;
+    width: 70px;
+    height: 66px;
+    right: 10px;
+    bottom: -50px;
+    background: url(../images/bangWatermark.png) no-repeat center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.applicationContainer .applicationCenter ul li:nth-child(4) .hotTopImg i {
+    position: absolute;
+    display: block;
+    width: 70px;
+    height: 66px;
+    right: 10px;
+    bottom: -56px;
+    background: url(../images/helloWatermark.png) no-repeat center;
+    background-size: cover;
+    z-index: -1;
 }
 
 .applicationContainer .applicationCenter ul li .hotTopImg span {
@@ -1019,12 +1126,14 @@ ul.homeLinks li:nth-child(4) i {
     color: #fff;
     transform: rotate(-45deg);
     text-align: center;
+    z-index: 3;
 }
 
 .applicationContainer .applicationCenter ul li .applicationDetail {
     padding: 25px 20px;
 }
-.applicationContainer .applicationCenter ul li .applicationDetail .applicationDetailTitle{
+
+.applicationContainer .applicationCenter ul li .applicationDetail .applicationDetailTitle {
     width: 100%;
     height: 25px;
     line-height: 25px;
@@ -1034,7 +1143,7 @@ ul.homeLinks li:nth-child(4) i {
     font-size: 18px;
 }
 
-.applicationContainer .applicationCenter ul li .applicationDetail .applicationDetailLine{
+.applicationContainer .applicationCenter ul li .applicationDetail .applicationDetailLine {
     display: block;
     width: 26px;
     height: 2px;
@@ -1042,7 +1151,7 @@ ul.homeLinks li:nth-child(4) i {
     margin: 15px auto 20px auto;
 }
 
-.applicationContainer .applicationCenter ul li .applicationDetail .applicationDetailDescribe{
+.applicationContainer .applicationCenter ul li .applicationDetail .applicationDetailDescribe {
     line-height: 20px;
     margin-bottom: 30px;
     color: #000;
@@ -1050,35 +1159,37 @@ ul.homeLinks li:nth-child(4) i {
     font-size: 12px;
 }
 
-.applicationContainer .applicationCenter ul li .applicationDetail .applicationDetailMore{
+.applicationContainer .applicationCenter ul li .applicationDetail .applicationDetailMore {
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 60px);
     /* line-height: 20px; */
     display: block;
     margin: 20px auto 0px auto;
-    width: 125px;
+    width: 120px;
     height: 35px;
-    /*background: red;*/
+    /* background: red; */
     line-height: 35px;
     text-align: center;
     border-radius: 20px;
     color: #353535;
     font-size: 14px;
     opacity: 0.8;
-    border: 2px solid rgba(220,220,220,0.8);
+    border: 1px solid rgba(220, 220, 220, 0.8);
 }
-
-
-
-
-
-
-
-
 
 /*feature*/
 #features {
     padding: 70px 0 100px 0;
     box-sizing: border-box;
     background: #fff;
+}
+
+#features .sectionTop i {
+    width: 31px;
+    height: 31px;
+    background: url("../images/featuresTopIcon.png") no-repeat center;
+    background-size: cover;
 }
 
 #features .featuresTopContainer {
@@ -1278,6 +1389,13 @@ ul.homeLinks li:nth-child(4) i {
     padding: 50px 0 100px 0;
     box-sizing: border-box;
     background: #fff;
+}
+
+#featuresTwo .sectionTop i {
+    width: 31px;
+    height: 31px;
+    background: url("../images/featuresTopIcon.png") no-repeat center;
+    background-size: cover;
 }
 
 #featuresTwo .featuresTopContainer {
@@ -1489,7 +1607,7 @@ ul.homeLinks li:nth-child(4) i {
 #advantages .advantagesTitle i {
     width: 30px;
     height: 28px;
-    background: url(../images/advantageIcon.png) no-repeat center;
+    background: url(../images/advantageTopIcon.png) no-repeat center;
     background-size: cover
 }
 
@@ -1509,8 +1627,7 @@ ul.homeLinks li:nth-child(4) i {
     z-index: 3
 }
 
-
-@media screen and (max-width: 1920px){
+@media screen and (max-width: 1920px) {
     #advantages .advantageLogo {
         width: 404px;
         height: 380px;
@@ -1523,9 +1640,6 @@ ul.homeLinks li:nth-child(4) i {
     }
 }
 
-
-
-
 #advantages hr {
     position: absolute;
     top: calc(50% - 148px);
@@ -1537,7 +1651,7 @@ ul.homeLinks li:nth-child(4) i {
     opacity: .5
 }
 
-@media screen and (max-width: 1920px){
+@media screen and (max-width: 1920px) {
     #advantages hr {
         position: absolute;
         top: calc(50% - 128px);
@@ -1549,7 +1663,6 @@ ul.homeLinks li:nth-child(4) i {
         opacity: .5
     }
 }
-
 
 #advantages .hrAnimate {
     -webkit-animation: aschBoundary 1s;
@@ -1862,6 +1975,13 @@ ul.homeLinks li:nth-child(4) i {
     z-index: 1
 }
 
+#scenarios .sectionTop i {
+    width: 31px;
+    height: 31px;
+    background: url(../images/scenariosTopIcon.png) no-repeat center;
+    background-size: cover
+}
+
 #scenarios .scenariosBackground {
     position: absolute;
     top: 250px;
@@ -1873,16 +1993,14 @@ ul.homeLinks li:nth-child(4) i {
     /*background-size: cover*/
 }
 
-#scenarios .scenariosBackground img{
+#scenarios .scenariosBackground img {
     width: 100%;
 }
 
-
-#scenarios .scenariosContainerCenter{
+#scenarios .scenariosContainerCenter {
     width: 70%;
     margin: 0 auto;
 }
-
 
 #scenarios .scenariosTitle {
     height: 70px;
@@ -2049,6 +2167,13 @@ ul.homeLinks li:nth-child(4) i {
     padding: 70px 0 100px 0;
     box-sizing: border-box;
     background: #f5f9ff;
+}
+
+#downloads .sectionTop i {
+    width: 42px;
+    height: 31px;
+    background: url(../images/downloadTopIcon.png) no-repeat center;
+    background-size: cover
 }
 
 #downloads .downloadsContainer {
@@ -2373,8 +2498,6 @@ ul.homeLinks li:nth-child(4) i {
     background-size: cover;
     z-index: 2
 }
-
-
 
 @media screen and (max-width: 1920px) {
     #downloads .downloadsContainer {
@@ -2702,7 +2825,7 @@ ul.homeLinks li:nth-child(4) i {
     }
 }
 
-@media screen and (min-width:1640px) and (max-width:1920px){
+@media screen and (min-width: 1640px) and (max-width: 1920px) {
     #downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3) {
         padding-top: 5px;
         box-sizing: border-box;
@@ -2715,6 +2838,13 @@ ul.homeLinks li:nth-child(4) i {
     background: #fff;
     padding: 70px 0 100px 0;
     box-sizing: border-box
+}
+
+#media .sectionTop i {
+    width: 34px;
+    height: 31px;
+    background: url(../images/partenersTopIcon.png) no-repeat center;
+    background-size: cover
 }
 
 #media .mediaContainer {
@@ -2732,7 +2862,7 @@ ul.homeLinks li:nth-child(4) i {
 }
 
 #media .mediaContainer a:hover {
-    box-shadow: 0 0 12px rgba(0,0,0,.3);
+    box-shadow: 0 0 12px rgba(0, 0, 0, .3);
 }
 
 #media .mediaContainer a:nth-child(2) {
@@ -2760,7 +2890,7 @@ ul.homeLinks li:nth-child(4) i {
     width: 191px;
     height: 84px;
     /*border: 1px solid #ccc;*/
-    box-shadow: 0 0 6px rgba(0,0,0,.2);
+    box-shadow: 0 0 6px rgba(0, 0, 0, .2);
     border-radius: 3px;
 }
 
@@ -2777,7 +2907,6 @@ ul.homeLinks li:nth-child(4) i {
         background-size: cover
     }
 
-
     #media .mediaContainer a:nth-child(2) {
         background: url(../images/mediaLink22.png) no-repeat center;
         background-size: cover
@@ -2788,13 +2917,10 @@ ul.homeLinks li:nth-child(4) i {
         background-size: cover
     }
 
-
-
     #media .mediaContainer a:nth-child(4) {
         background: url(../images/mediaLink44.png) no-repeat center;
         background-size: cover
     }
-
 
     #media .mediaContainer a:nth-child(5) {
         background: url(../images/mediaLink55.png) no-repeat center;
@@ -2802,7 +2928,7 @@ ul.homeLinks li:nth-child(4) i {
     }
 
     #media .mediaContainer a:hover {
-        box-shadow: 0 0 12px rgba(0,0,0,.3);
+        box-shadow: 0 0 12px rgba(0, 0, 0, .3);
     }
 
     #media .mediaContainer a {
@@ -2810,7 +2936,7 @@ ul.homeLinks li:nth-child(4) i {
         width: 170px;
         height: 80px;
         /* border: 1px solid #ccc; */
-        box-shadow: 0 0 6px rgba(0,0,0,.2);
+        box-shadow: 0 0 6px rgba(0, 0, 0, .2);
         border-radius: 3px;
     }
 }
@@ -2832,8 +2958,6 @@ ul.homeLinks li:nth-child(4) i {
     width: 70%;
     margin: 0 auto;
 }
-
-
 
 #links .linksContainer .linksItems span {
     width: 100%;
@@ -2875,7 +2999,6 @@ ul.homeLinks li:nth-child(4) i {
     font-size: 14px
 }
 
-
 #links .linksContainer .linksItems:first-child:hover ul {
     /*cursor: default*/
 }
@@ -2898,12 +3021,11 @@ footer {
     background: #282a2b;
 }
 
-footer .footerContainer{
+footer .footerContainer {
     position: relative;
     width: 70%;
     margin: 0 auto;
 }
-
 
 footer .footerLeft {
     width: 40%;
