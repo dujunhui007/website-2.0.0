@@ -14,7 +14,7 @@ nav {
     background: 0 0;
     padding: 0 15%;
     box-sizing: border-box;
-    z-index: 1015;
+    z-index: 1017;
     margin: 0 auto
 }
 
@@ -102,11 +102,11 @@ nav .navContainer .navRight .moreThan {
 }
 
 nav .navContainer .navRight .moreThan li:hover {
-    border-top: 2px solid #567fdc
+    border-top: 2px solid #ffa81c
 }
 
 nav .navContainer .navRight .moreThan li:hover a {
-    color: #567fdc
+    color: #ffa81c
 }
 
 nav .navContainer .navRight .moreThan li {
@@ -531,23 +531,29 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
 
 #home .aschHomeLinks {
     position: absolute;
-    width: 550px;
+    width: 500px;
     height: 60px;
-    top: 60%;
-    left: 20%;
+    top: 58%;
+    left: 25%;
 }
 
 #home .aschHomeLinks a {
     display: inline-block;
-    width: 250px;
-    height: 60px;
-    line-height: 60px;
+    width: 220px;
+    height: 50px;
+    line-height: 50px;
     text-align: center;
     border-radius: 30px;
+    vertical-align: top;
+    margin: 0 10px;
 }
 
-#home .aschHomeLinks a img{
-    margin-top: 12px;
+#home .aschHomeLinks a:nth-child(1) img{
+    margin-top: 11px;
+}
+
+#home .aschHomeLinks a:nth-child(2) img{
+    margin-top: 8px;
 }
 
 #home .aschHomeLinks a:nth-child(1) {
@@ -968,6 +974,23 @@ ul.homeLinks li:nth-child(4) i {
     left: 10%;
 }
 
+@media screen and (max-width: 1920px){
+    #introduction .introductionContainer .aschVideo span.videoText {
+        display: block;
+        width: 300px;
+        height: 35px;
+        background: url(../images/aschVideoText.png) no-repeat center;
+        background-size: cover;
+        position: absolute;
+        top: calc(50% - 18px);
+        /* left: calc(50% - 198px); */
+        left: 10%;
+    }
+}
+
+
+
+
 #introduction .introductionContainer .aschVideo p {
     position: absolute;
     left: 0;
@@ -1141,6 +1164,8 @@ ul.homeLinks li:nth-child(4) i {
     font-weight: bold;
     letter-spacing: 1px;
     font-size: 18px;
+    position: relative;
+    z-index: 2;
 }
 
 .applicationContainer .applicationCenter ul li .applicationDetail .applicationDetailLine {
