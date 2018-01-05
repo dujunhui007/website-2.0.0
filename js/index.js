@@ -105,7 +105,28 @@ $(document).ready(function () {
       $(this).addClass("active").siblings().removeClass("active");
       // 同理显示与隐藏
       $(this).parents(".downloadsContainerLeft").find(".dlsit-list li").eq(index).show().siblings().hide();
-    })
+    }),
+
+    $("#application .applicationContainer .applicationCenter ul .toCctimePage").click(function () {
+      // window.location.href = "aschVideo.html";
+      window.open("application1.html");
+    }),
+
+    $("#application .applicationContainer .applicationCenter ul .toKmwPage").click(function () {
+      window.open("application2.html");
+    }),
+
+  $("#application .applicationContainer .applicationCenter ul .toBbPage").click(function () {
+    window.open("application3.html");
+  }),
+
+  $("#application .applicationContainer .applicationCenter ul .toHelloPage").click(function () {
+    window.open("application4.html");
+  })
+
+
+
+
 
     // $("#introduction .introductionContainer .aschVideo").click(function () {
     //   // window.location.href = "aschVideo.html";

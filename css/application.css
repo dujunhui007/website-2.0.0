@@ -207,16 +207,36 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
 
 .applicationContainer {
     width: 100%;
+
 }
 
 .applicationContainer .applicationTop {
     width: 100%;
-    height: 300px;
-    line-height: 300px;
-    background: #fafaf9;
+    height: 400px;
+    /*line-height: 300px;*/
+    /*background: #fafaf9;*/
     box-shadow: 0 0 20px #ccc;
-    padding-top: 100px;
+    /*padding-top: 70px;*/
+    margin-top: 70px;
     box-sizing: border-box;
+    background: url("../images/allpicationTopBackground.jpg") no-repeat center;
+    background-size: cover;
+}
+
+
+@media screen and (max-width: 1920px){
+    .applicationContainer .applicationTop {
+        width: 100%;
+        height: 300px;
+        /*line-height: 300px;*/
+        /*background: #fafaf9;*/
+        box-shadow: 0 0 20px #ccc;
+        /*padding-top: 70px;*/
+        margin-top: 70px;
+        box-sizing: border-box;
+        background: url("../images/allpicationTopBackground.jpg") no-repeat center;
+        background-size: cover;
+    }
 }
 
 .applicationContainer .applicationTop p {
@@ -230,7 +250,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
 }
 
 .applicationContainer .applicationCenter {
-    padding-top: 70px;
+    padding-top: 10px;
     padding-bottom: 100px;
     width: 1200px;
     margin: 0 auto;
@@ -296,24 +316,61 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
 }
 
 .applicationContainer .applicationCenter .applicationContent .applicationContentRight {
-    width: 500px;
+    width: 519px;
     position: relative;
 }
 
-.applicationContainer .applicationCenter .applicationContent .applicationContentRight i {
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight i.cctimeWatermark {
     position: absolute;
     display: block;
     width: 130px;
     height: 87px;
     right: 10px;
     top: -21px;
-    background: url("../images/applicationCcWatermark.png") no-repeat center;
+    background: url("../images/watermark1.png") no-repeat center;
     background-size: cover;
 }
 
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight i.koumeiWatermark {
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 73px;
+    right: 10px;
+    top: -21px;
+    background: url("../images/watermark2.png") no-repeat center;
+    background-size: cover;
+}
+
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight i.bangWatermark {
+    position: absolute;
+    display: block;
+    width: 111px;
+    height: 78px;
+    right: 10px;
+    top: -21px;
+    background: url("../images/watermark3.png") no-repeat center;
+    background-size: cover;
+}
+
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight i.helloWatermark {
+    position: absolute;
+    display: block;
+    width: 113px;
+    height: 90px;
+    right: 10px;
+    top: -21px;
+    background: url("../images/watermark4.png") no-repeat center;
+    background-size: cover;
+}
+
+
+
+
+
 .applicationContainer .applicationCenter .applicationContent .applicationContentRight .contentRightTitle {
     display: block;
-    width: 100%;
+    width: 96%;
     text-align: left;
     color: #282828;
     font-size: 30px;
@@ -321,10 +378,11 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     margin-bottom: 10px;
     margin-top: 10px;
     border-bottom: 1px solid #e5e5e5;
+    font-weight: 500;
 }
 
 .applicationContainer .applicationCenter .applicationContent .applicationContentRight .applicationDescribe {
-    padding-right: 30px;
+    /*padding-right: 30px;*/
     line-height: 24px;
     color: #000;
     opacity: 0.7;
@@ -379,13 +437,17 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     padding-right: 40px;
 }
 
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight .applicationLinks a:nth-child(2){
+    margin-right: 53px;
+}
+
 .applicationContainer .applicationCenter .applicationContent .applicationContentRight .applicationLinks a {
     display: inline-block;
-    width: 180px;
+    width: 200px;
     height: 50px;
     line-height: 50px;
     text-align: center;
-    background: linear-gradient(to right,#feb641,#feb949);
+    background: linear-gradient(to bottom,#febb50,#feb949);
     border-radius: 3px;
     color: #fff;
     font-size: 20px;
@@ -411,6 +473,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
 .applicationContainer .applicationCenter .applicationIntroduction p{
     display: block;
     font-size: 18px;
+    line-height: 27px;
     color: #848484;
     font-family: aschFont;
     margin-bottom: 20px;
