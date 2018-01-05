@@ -525,6 +525,8 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     left: 20%;
 }
 
+
+
 #home .aschHomeImg1 img {
     width: 100%;
 }
@@ -532,7 +534,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
 #home .aschHomeLinks {
     position: absolute;
     width: 500px;
-    height: 60px;
+    /*height: 60px;*/
     top: 58%;
     left: 25%;
 }
@@ -565,6 +567,8 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     display: inline-block;
     background: #fff;
 }
+
+
 
 #home p {
     width: 100%;
@@ -1112,6 +1116,80 @@ ul.homeLinks li:nth-child(4) i {
     background: url(../images/kmcWatermark.png) no-repeat center;
     background-size: cover;
     z-index: -1;
+}
+
+@media screen and (max-width: 1400px){
+    #home .aschHomeImg1 {
+        position: absolute;
+        width: 500px;
+    }
+
+    #home .aschHomeLinks a:nth-child(1) img{
+        margin-top: 6px;
+    }
+
+    #home .aschHomeLinks a:nth-child(2) img{
+        margin-top: 3px;
+    }
+    #home .aschHomeLinks a {
+        display: inline-block;
+        width: 200px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        border-radius: 30px;
+        vertical-align: top;
+        margin: 0 10px;
+    }
+
+    .applicationContainer .applicationCenter ul li:nth-child(1) .hotTopImg i {
+        position: absolute;
+        display: block;
+        width: 60px;
+        height: 58px;
+        right: 10px;
+        bottom: -40px;
+        background: url(../images/cctimeWatermark.png) no-repeat center;
+        background-size: cover;
+        z-index: -1;
+    }
+
+    .applicationContainer .applicationCenter ul li:nth-child(2) .hotTopImg i {
+        position: absolute;
+        display: block;
+        width: 60px;
+        height: 57px;
+        right: 10px;
+        bottom: -47px;
+        background: url(../images/kmcWatermark.png) no-repeat center;
+        background-size: cover;
+        z-index: -1;
+    }
+
+    .applicationContainer .applicationCenter ul li:nth-child(3) .hotTopImg i {
+        position: absolute;
+        display: block;
+        width: 60px;
+        height: 59px;
+        right: 10px;
+        bottom: -46px;
+        background: url(../images/bangWatermark.png) no-repeat center;
+        background-size: cover;
+        z-index: -1;
+    }
+
+    .applicationContainer .applicationCenter ul li:nth-child(4) .hotTopImg i {
+        position: absolute;
+        display: block;
+        width: 60px;
+        height: 57px;
+        right: 10px;
+        bottom: -48px;
+        background: url(../images/helloWatermark.png) no-repeat center;
+        background-size: cover;
+        z-index: -1;
+    }
+
 }
 
 .applicationContainer .applicationCenter ul li:nth-child(3) .hotTopImg i {
