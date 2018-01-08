@@ -1140,6 +1140,13 @@ ul.homeLinks li:nth-child(4) i {
 }
 
 @media screen and (max-width: 1920px){
+    #home .aschHomeLinks {
+        position: absolute;
+        width: 500px;
+        /*height: 60px;*/
+        top: 55%;
+        left: 25.5%;
+    }
     #home .aschHomeImg1 {
         position: absolute;
         width: 500px;
@@ -1154,7 +1161,7 @@ ul.homeLinks li:nth-child(4) i {
     }
     #home .aschHomeLinks a {
         display: inline-block;
-        width: 200px;
+        width: 180px;
         height: 40px;
         line-height: 40px;
         text-align: center;
