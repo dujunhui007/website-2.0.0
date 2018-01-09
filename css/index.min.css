@@ -511,17 +511,30 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
 
 #home .aschHomeImg1 {
     position: absolute;
-    width: 736;
+    width: 736px;
     height: 100px;
     top: 32%;
     left:calc(50% - 368px);
 }
 
-
-
 #home .aschHomeImg1 img {
     width: 100%;
 }
+
+#home .aschHomeImg1 .aschHomeImgLine1{
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    top: -94%;
+    left:calc(50% - 150px);
+    border-bottom:8px solid;
+    border-image: linear-gradient(to right, transparent, #e18e08, transparent) 1;
+    z-index: 999;
+}
+
+
+
 
 #home .aschHomeLinks {
     position: absolute;
@@ -869,7 +882,7 @@ ul.homeLinks li:nth-child(4) i {
     left: calc(50% - 35px);
     /* border: 1px solid #00BCD4; */
     width: 100px;
-    height: 70px;
+    height: 72px;
     /* line-height: 120px; */
     /* margin: 200px auto; */
     /*background-color: red;*/
@@ -917,11 +930,13 @@ ul.homeLinks li:nth-child(4) i {
 }
 
 .showVideo:hover .imgHide {
-    transform: translate(0, 100%);
-    -webkit-transform: translate(0, 100%);
-    -moz-transform: translate(0, 100%);
-    -o-transform: translate(0, 100%);
-    -ms-transform: translate(0, 100%);
+    background: url("../images/videoPlay2.png") no-repeat center;
+    background-size: cover;
+    /*transform: translate(0, 100%);*/
+    /*-webkit-transform: translate(0, 100%);*/
+    /*-moz-transform: translate(0, 100%);*/
+    /*-o-transform: translate(0, 100%);*/
+    /*-ms-transform: translate(0, 100%);*/
 }
 
 .showVideo .imgShow {
@@ -2412,7 +2427,7 @@ ul.homeLinks li:nth-child(4) i {
 
 #scenarios .scenariosContainerCenter .scenariosContainer ul li a {
     display: block;
-    color: #567fdc;
+    color: #ffa81c;
     margin: 5px 0
 }
 

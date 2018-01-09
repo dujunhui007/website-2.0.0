@@ -127,7 +127,7 @@ nav .navContainer .navRight .moreThan li a {
     display: block;
     height: 100%;
     color: #000;
-    font-size: 16px;
+    font-size: 18px;
     padding-right: 20px
 }
 
@@ -433,6 +433,9 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     margin-left: 20px;
 }
 
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight .applicationLinks a:hover{
+    background: linear-gradient(to bottom,#febb50,#e18e08);
+}
 .applicationContainer .applicationCenter .applicationContent .applicationContentRight .applicationLinks a {
     display: inline-block;
     width: 200px;
