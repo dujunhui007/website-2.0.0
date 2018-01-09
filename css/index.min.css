@@ -511,10 +511,10 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
 
 #home .aschHomeImg1 {
     position: absolute;
-    width: 700px;
+    width: 950px;
     height: 100px;
     top: 40%;
-    left: 20%;
+    left: 9.4%;
 }
 
 
@@ -527,8 +527,8 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     position: absolute;
     width: 500px;
     /*height: 60px;*/
-    top: 52%;
-    left: 25.5%;
+    top: 55%;
+    left: 17.5%;
 }
 
 #home .aschHomeLinks a {
