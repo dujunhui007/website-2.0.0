@@ -41,7 +41,7 @@ nav .navContainer .navLeft span {
 nav .navContainer .navLeft .navLogo {
     width: 100px;
     height: 25px;
-    margin-top: 12px
+    margin-top: 14px
 }
 
 nav .navContainer .navLeft .replaceLogoOne {
@@ -513,7 +513,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     position: absolute;
     width: 736;
     height: 100px;
-    top: 30%;
+    top: 32%;
     left:calc(50% - 368px);
 }
 
@@ -534,6 +534,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
 }
 
 #home .aschHomeLinks a {
+    position: relative;
     display: inline-block;
     width: 198px;
     height: 50px;
@@ -542,16 +543,15 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     border-radius: 30px;
     vertical-align: top;
     margin: 0 10px;
+    overflow: hidden;
 }
 
-#home .aschHomeLinks a:nth-child(1) img{
-    margin-top: 11px;
-    width: 120px;
+#home .aschHomeLinks a:nth-child(1):hover{
+    background: #fff;
 }
 
-#home .aschHomeLinks a:nth-child(2) img{
-    margin-top: 12px;
-    width: 120px;
+#home .aschHomeLinks a:nth-child(2):hover{
+    background: #ffa81c;
 }
 
 #home .aschHomeLinks a:nth-child(1) {
@@ -563,6 +563,105 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     display: inline-block;
     background: #fff;
 }
+
+#home .aschHomeLinks a:nth-child(1) img:nth-child(1){
+    position: absolute;
+    width: 120px;
+    top:13px;
+}
+
+#home .aschHomeLinks a:nth-child(1):hover img:nth-child(1) {
+    transform: translate(164px, 0);
+    -webkit-transform: translate(164px, 0);
+    -moz-transform:  translate(164px, 0);
+    -o-transform:  translate(164px, 0);
+    -ms-transform:  translate(164px, 0);
+}
+
+#home .aschHomeLinks a:nth-child(1) img:nth-child(1){
+    position: absolute;
+    width: 120px;
+    left: -125px;
+    display: block;
+    transition: All 0.2s ease-in-out;
+    -webkit-transition: All 0.2s ease-in-out;
+}
+
+#home .aschHomeLinks a:nth-child(1):hover img:nth-child(2) {
+    transform: translate(0, 50px);
+    -webkit-transform: translate(0, 50px);
+    -moz-transform:  translate(0, 50px);
+    -o-transform:  translate(0, 50px);
+    -ms-transform: translate(0, 50px);
+}
+
+#home .aschHomeLinks a:nth-child(1) img:nth-child(2){
+    position: absolute;
+    top: 13px;
+    width: 120px;
+    left: 39px;
+    display: block;
+    transition: All 0.2s ease-in-out;
+    -webkit-transition: All 0.2s ease-in-out;
+}
+
+/*img2*/
+#home .aschHomeLinks a:nth-child(2) img:nth-child(1){
+    position: absolute;
+    width: 120px;
+    top:13px;
+}
+
+#home .aschHomeLinks a:nth-child(2):hover img:nth-child(1) {
+    transform: translate(164px, 0);
+    -webkit-transform: translate(164px, 0);
+    -moz-transform:  translate(164px, 0);
+    -o-transform:  translate(164px, 0);
+    -ms-transform:  translate(164px, 0);
+}
+
+#home .aschHomeLinks a:nth-child(2) img:nth-child(1){
+    position: absolute;
+    width: 120px;
+    left: -125px;
+    display: block;
+    transition: All 0.2s ease-in-out;
+    -webkit-transition: All 0.2s ease-in-out;
+}
+
+#home .aschHomeLinks a:nth-child(2):hover img:nth-child(2) {
+    transform: translate(0, 50px);
+    -webkit-transform: translate(0, 50px);
+    -moz-transform:  translate(0, 50px);
+    -o-transform:  translate(0, 50px);
+    -ms-transform: translate(0, 50px);
+}
+
+#home .aschHomeLinks a:nth-child(2) img:nth-child(2){
+    position: absolute;
+    top: 13px;
+    width: 120px;
+    left: 39px;
+    display: block;
+    transition: All 0.2s ease-in-out;
+    -webkit-transition: All 0.2s ease-in-out;
+}
+
+
+#home .aschHomeLinks a:nth-child(2) img{
+    position: absolute;
+    top:11px;
+    left: -125px;
+    /*margin-top: 11px;*/
+    width: 120px;
+}
+
+#home .aschHomeLinks a:nth-child(2) img{
+    /*margin-top: 12px;*/
+    width: 120px;
+}
+
+
 
 
 
@@ -1144,23 +1243,23 @@ ul.homeLinks li:nth-child(4) i {
         left:calc(50% - 300px);
     }
 
-    #home .aschHomeLinks a:nth-child(1) img{
-        margin-top: 6px;
-    }
+    /*#home .aschHomeLinks a:nth-child(1) img{*/
+        /*margin-top: 6px;*/
+    /*}*/
 
-    #home .aschHomeLinks a:nth-child(2) img{
-        margin-top: 7px;
-    }
-    #home .aschHomeLinks a {
-        display: inline-block;
-        width: 180px;
-        height: 40px;
-        line-height: 40px;
-        text-align: center;
-        border-radius: 30px;
-        vertical-align: top;
-        margin: 0 10px;
-    }
+    /*#home .aschHomeLinks a:nth-child(2) img{*/
+        /*margin-top: 7px;*/
+    /*}*/
+    /*#home .aschHomeLinks a {*/
+        /*display: inline-block;*/
+        /*width: 180px;*/
+        /*height: 40px;*/
+        /*line-height: 40px;*/
+        /*text-align: center;*/
+        /*border-radius: 30px;*/
+        /*vertical-align: top;*/
+        /*margin: 0 10px;*/
+    /*}*/
 
     .applicationContainer .applicationCenter ul li:nth-child(1) .hotTopImg i {
         position: absolute;

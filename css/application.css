@@ -383,7 +383,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     padding-right: 30px;
     box-sizing: border-box;
     /*background: red;*/
-    margin: 20px 0;
+    margin: 30px 0 20px 0;
 }
 
 .applicationContainer .applicationCenter .applicationContent .applicationContentRight .aschSide li {
@@ -397,6 +397,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     font-size: 16px;
     line-height: 22px;
     font-weight: bold;
+    white-space:nowrap
 }
 
 .applicationContainer .applicationCenter .applicationContent .applicationContentRight .aschSide li p:nth-child(2) {
@@ -410,26 +411,26 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     position: absolute;
     display: block;
     width: 1px;
-    height: 50%;
+    height: 80%;
     background: #ccc;
-    right: 35px;
-    top: 25%;
+    right: 20px;
+    top: 10%;
 }
 
 .applicationContainer .applicationCenter .applicationContent .applicationContentRight .applicationLinks {
-    /*position: absolute;*/
-    /*bottom: 20px;*/
-    /*left: 0px;*/
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
     margin-top: 55px;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-justify-content: space-between;
-    justify-content: space-between;
+    /*display: -webkit-flex;*/
+    /*display: flex;*/
+    /*-webkit-justify-content: space-between;*/
+    /*justify-content: space-between;*/
     padding-right: 40px;
 }
 
 .applicationContainer .applicationCenter .applicationContent .applicationContentRight .applicationLinks a:nth-child(2){
-    margin-right: 53px;
+    margin-left: 20px;
 }
 
 .applicationContainer .applicationCenter .applicationContent .applicationContentRight .applicationLinks a {
