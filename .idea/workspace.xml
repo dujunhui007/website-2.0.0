@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1022bd6-4fe7-403a-a3fd-29d777c427ac" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/btnHoverCss/buttons.css" afterPath="$PROJECT_DIR$/btnHoverCss/buttons.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/application.css" afterPath="$PROJECT_DIR$/css/application.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.min.css" afterPath="$PROJECT_DIR$/css/index.min.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,14 +21,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.57660925">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="499">
-                  <caret line="271" column="99" lean-forward="false" selection-start-line="271" selection-start-column="99" selection-end-line="271" selection-end-column="99" />
+                <state relative-caret-position="195">
+                  <caret line="216" column="4" lean-forward="false" selection-start-line="216" selection-start-column="4" selection-end-line="216" selection-end-column="4" />
                   <folding>
                     <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -76,21 +78,9 @@
           <file leaf-file-name="index.min.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/index.min.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="274">
-                  <caret line="1163" column="17" lean-forward="false" selection-start-line="1163" selection-start-column="17" selection-end-line="1163" selection-end-column="17" />
-                  <folding>
-                    <element signature="e#23608#23668#0" expanded="false" />
-                    <element signature="e#23743#23975#0" expanded="false" />
-                    <element signature="e#24050#24279#0" expanded="false" />
-                    <element signature="e#24492#24549#0" expanded="false" />
-                    <element signature="e#24594#24626#0" expanded="false" />
-                    <element signature="e#25029#25301#0" expanded="false" />
-                    <element signature="e#25380#25649#0" expanded="false" />
-                    <element signature="e#25728#25998#0" expanded="false" />
-                    <element signature="e#26077#26348#0" expanded="false" />
-                    <element signature="e#26426#26656#0" expanded="false" />
-                    <element signature="e#26731#26962#0" expanded="false" />
-                  </folding>
+                <state relative-caret-position="-8231">
+                  <caret line="2988" column="34" lean-forward="false" selection-start-line="2988" selection-start-column="34" selection-end-line="2988" selection-end-column="34" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -137,7 +127,6 @@
         <option value="$PROJECT_DIR$/aschVideo.html" />
         <option value="$PROJECT_DIR$/css/introductionVideo.css" />
         <option value="$PROJECT_DIR$/js/aschVideoIndex.js" />
-        <option value="$PROJECT_DIR$/btnHoverCss/buttons.css" />
         <option value="$PROJECT_DIR$/js/videoPaly.js" />
         <option value="$PROJECT_DIR$/css/swiper-3.4.2.min.css" />
         <option value="$PROJECT_DIR$/swiperdemo2.html" />
@@ -146,13 +135,14 @@
         <option value="$PROJECT_DIR$/js/application.js" />
         <option value="$PROJECT_DIR$/application.html" />
         <option value="$PROJECT_DIR$/js/index.js" />
-        <option value="$PROJECT_DIR$/css/application.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/application1.html" />
         <option value="$PROJECT_DIR$/application2.html" />
         <option value="$PROJECT_DIR$/application3.html" />
         <option value="$PROJECT_DIR$/application4.html" />
         <option value="$PROJECT_DIR$/css/index.min.css" />
+        <option value="$PROJECT_DIR$/btnHoverCss/buttons.css" />
+        <option value="$PROJECT_DIR$/css/application.css" />
       </list>
     </option>
   </component>
@@ -163,10 +153,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="15" />
+    <option name="y" value="22" />
     <option name="width" value="828" />
-    <option name="height" value="735" />
+    <option name="height" value="706" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -193,12 +183,12 @@
             <path>
               <item name="website-2.0.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="website-2.0.0" type="462c0819:PsiDirectoryNode" />
-              <item name="font" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="website-2.0.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="website-2.0.0" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="font" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="website-2.0.0" type="b2602c69:ProjectViewProjectNode" />
@@ -270,18 +260,18 @@
       <workItem from="1514345335966" duration="35013000" />
       <workItem from="1514515384887" duration="1585000" />
       <workItem from="1514812556461" duration="71584000" />
-      <workItem from="1515214475830" duration="3473000" />
+      <workItem from="1515214475830" duration="8178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164983000" />
+    <option name="totallyTimeSpent" value="169688000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.106398806" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17931548" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -313,13 +303,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="888">
-          <caret line="828" column="0" lean-forward="false" selection-start-line="828" selection-start-column="0" selection-end-line="828" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/advantageIcon1.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -359,24 +342,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/aschVideo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aschVideo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/btnHoverCss/buttons.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="71" column="1" lean-forward="true" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -569,14 +538,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="228" column="20" lean-forward="false" selection-start-line="228" selection-start-column="20" selection-end-line="228" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -622,8 +583,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="271" column="99" lean-forward="false" selection-start-line="271" selection-start-column="99" selection-end-line="271" selection-end-column="99" />
+        <state relative-caret-position="195">
+          <caret line="216" column="4" lean-forward="false" selection-start-line="216" selection-start-column="4" selection-end-line="216" selection-end-column="4" />
           <folding>
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -665,23 +626,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/btnHoverCss/buttons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="331" column="19" lean-forward="false" selection-start-line="331" selection-start-column="19" selection-end-line="331" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/commons.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2692">
+          <caret line="428" column="1" lean-forward="true" selection-start-line="428" selection-start-column="1" selection-end-line="428" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/aschVideo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13182">
+          <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/index.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="1163" column="17" lean-forward="false" selection-start-line="1163" selection-start-column="17" selection-end-line="1163" selection-end-column="17" />
-          <folding>
-            <element signature="e#23608#23668#0" expanded="false" />
-            <element signature="e#23743#23975#0" expanded="false" />
-            <element signature="e#24050#24279#0" expanded="false" />
-            <element signature="e#24492#24549#0" expanded="false" />
-            <element signature="e#24594#24626#0" expanded="false" />
-            <element signature="e#25029#25301#0" expanded="false" />
-            <element signature="e#25380#25649#0" expanded="false" />
-            <element signature="e#25728#25998#0" expanded="false" />
-            <element signature="e#26077#26348#0" expanded="false" />
-            <element signature="e#26426#26656#0" expanded="false" />
-            <element signature="e#26731#26962#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="-8231">
+          <caret line="2988" column="34" lean-forward="false" selection-start-line="2988" selection-start-column="34" selection-end-line="2988" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>

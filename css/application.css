@@ -143,14 +143,6 @@ nav .navContainer .navRight .downloadWhitePaperOne:hover {
 }
 
 nav .navContainer .navRight .downloadWhitePaperOne {
-    /*width: 120px;*/
-    /*height: 20px;*/
-    /*padding: 0 10px;*/
-    /*border-radius: 20px;*/
-    /*font-size: 14px;*/
-    /*margin-left: 50px;*/
-    /*color: #fff;*/
-    /*background: #567fdc;*/
     width: 120px;
     height: 20px;
     line-height: 20px;
@@ -167,14 +159,6 @@ nav .navContainer .navRight .downloadWhitePaperTwo:hover {
 }
 
 nav .navContainer .navRight .downloadWhitePaperTwo {
-    /*width: 120px;*/
-    /*height: 20px;*/
-    /*padding: 0 10px;*/
-    /*border-radius: 20px;*/
-    /*font-size: 14px;*/
-    /*margin-left: 20px;*/
-    /*color: #fff;*/
-    /*background: #1c49ae*/
     width: 120px;
     height: 20px;
     line-height: 20px;
@@ -277,6 +261,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
 
 .applicationContainer .applicationCenter .applicationCenterTitle .toCCtime {
     opacity: 0.7;
+    filter: alpha(opacity=70);
     color: #000;
 }
 
@@ -286,7 +271,9 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     box-sizing: border-box;
     box-shadow: 0 0 20px #ccc;
     border-radius: 5px;
+    display: -webkit-flex;
     display: flex;
+    -webkit-justify-content: space-between;
     justify-content: space-between;
     overflow: hidden;
 }
@@ -310,6 +297,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     background: #fc5f45;
     position: absolute;
     color: #fff;
+    -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     text-align: center;
     z-index: 3;
@@ -386,6 +374,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     line-height: 24px;
     color: #000;
     opacity: 0.7;
+    filter: alpha(opacity=70);
     font-family: aschFont;
 }
 
@@ -432,7 +421,9 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     /*bottom: 20px;*/
     /*left: 0px;*/
     margin-top: 55px;
+    display: -webkit-flex;
     display: flex;
+    -webkit-justify-content: space-between;
     justify-content: space-between;
     padding-right: 40px;
 }
