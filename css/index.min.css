@@ -514,7 +514,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     /*height: 100%;*/
     background-image: -webkit-radial-gradient(ellipse farthest-corner at center top, #001374 0%, #000105 100%);
     background-image: radial-gradient(ellipse farthest-corner at center top, #001374 0%, #000105 100%);
-    /*cursor: move;*/
+    cursor: move;
     overflow: hidden;
 }
 
