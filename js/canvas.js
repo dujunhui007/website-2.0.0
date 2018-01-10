@@ -1,5 +1,5 @@
 
-var num = 200;
+var num = 50;
 var w = window.innerWidth;
 var h = window.innerHeight;
 var max = 100;
