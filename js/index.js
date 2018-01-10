@@ -109,19 +109,19 @@ $(document).ready(function () {
 
     $("#application .applicationContainer .applicationCenter ul .toCctimePage").click(function () {
       // window.location.href = "aschVideo.html";
-      window.open("application1.html");
+      window.open("dapp1.html");
     }),
 
     $("#application .applicationContainer .applicationCenter ul .toKmwPage").click(function () {
-      window.open("application2.html");
+      window.open("dapp2.html");
     }),
 
   $("#application .applicationContainer .applicationCenter ul .toBbPage").click(function () {
-    window.open("application3.html");
+    window.open("dapp3.html");
   }),
 
   $("#application .applicationContainer .applicationCenter ul .toHelloPage").click(function () {
-    window.open("application4.html");
+    window.open("dapp4.html");
   })
 
 

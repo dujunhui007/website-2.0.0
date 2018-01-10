@@ -514,7 +514,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     /*height: 100%;*/
     background-image: -webkit-radial-gradient(ellipse farthest-corner at center top, #001374 0%, #000105 100%);
     background-image: radial-gradient(ellipse farthest-corner at center top, #001374 0%, #000105 100%);
-    cursor: move;
+    /*cursor: move;*/
     overflow: hidden;
 }
 
@@ -2514,7 +2514,7 @@ ul.homeLinks li:nth-child(4) i {
     border-right: none
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1910px) {
     #downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3) {
         padding-top: 5px;
         box-sizing: border-box;
